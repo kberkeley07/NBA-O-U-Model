@@ -42,11 +42,11 @@
       "home_score": null,
       "id": "401909090",
       "market": {
-        "book": "FanDuel",
-        "line": 231.5,
+        "book": "BetMGM",
+        "line": 230.5,
         "offers": 9,
-        "over_price": -105.0,
-        "under_price": -115.0
+        "over_price": -110.0,
+        "under_price": -110.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -144,11 +144,11 @@
       "home_score": null,
       "id": "401909838",
       "market": {
-        "book": "Bovada",
-        "line": 242.0,
+        "book": "LowVig.ag",
+        "line": 241.25,
         "offers": 8,
-        "over_price": -110.0,
-        "under_price": -110.0
+        "over_price": -102.0,
+        "under_price": -113.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -161,11 +161,11 @@
       "home_score": null,
       "id": "401909839",
       "market": {
-        "book": "DraftKings",
-        "line": 239.75,
+        "book": "LowVig.ag",
+        "line": 240.0,
         "offers": 8,
-        "over_price": -112.0,
-        "under_price": -108.0
+        "over_price": -107.0,
+        "under_price": -107.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -239,11 +239,13 @@
       "status": "scheduled"
     }
   ],
-  "generated_at": "2026-10-20T16:25:07.853568+00:00",
+  "generated_at": "2026-10-20T16:47:33.355962+00:00",
   "notes": [
+    "V1 exactly reproduces the original Excel arithmetic using 2026–27 derived pace/ratings; inputs are approximate, not the old workbook values.",
+    "Historical Excel workbook reports 40–28, +8.1128u but does not prove predictions were frozen at tipoff.",
     "PREVIEW projections appear after each team has at least one valid current-season game and are excluded from paper tracking.",
     "Official WATCH signals require 10 qualifying games per team.",
-    "Projections use 2026–27 stats only and are not validated.",
+    "Both projections use 2026–27 stats only and are not validated.",
     "Injury and rotation adjustments are not integrated yet.",
     "ESPN data is unofficial; missing boxscores intentionally prevent predictions.",
     "Watch signals are research/paper-tracking labels, not verified betting advantages."
@@ -256,6 +258,22 @@
     "units": 0,
     "wins": 0
   },
+  "performance_by_model": {
+    "v1": {
+      "losses": 0,
+      "pending": 0,
+      "pushes": 0,
+      "units": 0,
+      "wins": 0
+    },
+    "v2": {
+      "losses": 0,
+      "pending": 0,
+      "pushes": 0,
+      "units": 0,
+      "wins": 0
+    }
+  },
   "season": "2026–27",
   "settings": {
     "min_games": 10,
@@ -267,9 +285,9 @@
     "games_archived": 0,
     "injuries_integrated": false,
     "odds_configured": true,
-    "odds_credits_remaining": "498",
+    "odds_credits_remaining": "497",
     "odds_events_available": 46,
-    "odds_snapshots_saved": 28,
+    "odds_snapshots_saved": 42,
     "teams_ready": 0,
     "teams_with_stats": 0
   },
