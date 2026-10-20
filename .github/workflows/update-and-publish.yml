@@ -1,0 +1,62 @@
+name: Update NBA dashboard
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 12 * * *'
+    - cron: '47 21 * * *'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: nba-dashboard-pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Arrange files uploaded from iPad
+        run: |
+          mkdir -p site/data scripts data
+          cp index.html app.js styles.css site/
+          cp dashboard.json site/data/dashboard.json
+          cp update.py scripts/update.py
+          cp archive.json odds_snapshots.json paper_bets.json data/
+
+      - name: Update scores, model, and market lines
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python scripts/update.py
+
+      - name: Save updated data at repository root
+        run: |
+          cp data/archive.json data/odds_snapshots.json data/paper_bets.json site/data/dashboard.json .
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add archive.json odds_snapshots.json paper_bets.json dashboard.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update NBA dashboard data'
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
