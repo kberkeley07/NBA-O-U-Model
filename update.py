@@ -217,10 +217,42 @@ def find_odds(game, odds):
                 'under_price':best['under_price'], 'offers':len(offers)}
     return None
 
+def excel_v1_projection(game, teams, odds_info=None):
+    """Replicate NBA Totals v1.xlsx Daily!K:P using current-season inputs.
+
+    Excel: pace=(away_pace+home_pace)/2;
+      away_points=pace*AVERAGE(away_ORtg,home_DRtg)/100;
+      home_points=pace*AVERAGE(home_ORtg,away_DRtg)/100.
+    The original sheet evaluates >=5.5 on its UNROUNDED edge.
+    """
+    home = teams.get(game['home']); away = teams.get(game['away'])
+    if not home or not away or home['games'] < PREVIEW_MIN_GAMES or away['games'] < PREVIEW_MIN_GAMES:
+        return None
+    pace = (home['pace'] + away['pace']) / 2
+    away_pts = pace * ((away['ortg'] + home['drtg']) / 2) / 100
+    home_pts = pace * ((home['ortg'] + away['drtg']) / 2) / 100
+    raw_total = away_pts + home_pts
+    if not (170 <= raw_total <= 290):
+        return None   # Early-season extremes: do not fabricate a plausible total.
+    raw_edge = raw_total - odds_info['line'] if odds_info else None
+    side = ('OVER' if raw_edge >= WATCH_EDGE else 'UNDER' if raw_edge <= -WATCH_EDGE else None) if raw_edge is not None else None
+    preview = home['games'] < MIN_GAMES or away['games'] < MIN_GAMES
+    return {'total':round(raw_total,1),'edge':round(raw_edge,2) if raw_edge is not None else None,
+            'pace':round(pace,2),'away_points':round(away_pts,2),'home_points':round(home_pts,2),
+            'watch':side if not preview else None,'preview_direction':side if preview else None,
+            'preview':preview,'model_version':'Excel v1 exact formula, 2026–27 estimated inputs'}
+
 def project(game, teams, league_eff, odds_info):
     hs=teams.get(game['home']); a=teams.get(game['away'])
-    if not hs or not a or hs['games'] < PREVIEW_MIN_GAMES or a['games'] < PREVIEW_MIN_GAMES or league_eff is None: return None
-    # Current-season only; shrink early efficiency against *current-season* league avg.
+    if not hs or not a or hs['games'] < PREVIEW_MIN_GAMES or a['games'] < PREVIEW_MIN_GAMES:
+        return None
+    original=excel_v1_projection(game,teams,odds_info)
+    preview = hs['games'] < MIN_GAMES or a['games'] < MIN_GAMES
+    # v2 uses current-season league-mean shrinkage. The Excel v1 calculation above does not.
+    if league_eff is None:
+        return {'total':None,'edge':None,'watch':None,'preview':preview,
+                'preview_direction':None,'home_games':hs['games'],'away_games':a['games'],
+                'original':original,'model_version':'v0.3 adjusted model (awaiting league baseline)'}
     hwt=hs['games']/(hs['games']+8)
     awt=a['games']/(a['games']+8)
     h_off=league_eff+(hs['ortg']-league_eff)*hwt
@@ -228,16 +260,18 @@ def project(game, teams, league_eff, odds_info):
     a_off=league_eff+(a['ortg']-league_eff)*awt
     a_def=league_eff+(a['drtg']-league_eff)*awt
     pace=(hs['pace']+a['pace'])/2
-    projected=round(pace*(h_off+a_def-league_eff+a_off+h_def-league_eff)/100,1)
-    if not (170 <= projected <= 290): return None
-    edge=round(projected-odds_info['line'],1) if odds_info else None
-    preview = hs['games'] < MIN_GAMES or a['games'] < MIN_GAMES
-    direction = 'OVER' if edge is not None and edge >= WATCH_EDGE else 'UNDER' if edge is not None and edge <= -WATCH_EDGE else None
-    watch = None if preview else direction
-    return {'total':projected,'pace':round(pace,1),'edge':edge,'watch':watch,
+    raw_total=pace*(h_off+a_def-league_eff+a_off+h_def-league_eff)/100
+    if not (170 <= raw_total <= 290):
+        projected=None; edge=None; direction=None
+    else:
+        projected=round(raw_total,1)
+        edge=round(projected-odds_info['line'],1) if odds_info else None
+        direction='OVER' if edge is not None and edge >= WATCH_EDGE else 'UNDER' if edge is not None and edge <= -WATCH_EDGE else None
+    return {'total':projected,'pace':round(pace,1),'edge':edge,
+            'watch':direction if not preview else None,
             'preview':preview,'preview_direction':direction if preview else None,
-            'home_games':hs['games'],'away_games':a['games'],
-            'model_version':'v0.2 experimental current-season preview (unvalidated)' if preview else 'v0.2 current-season baseline (unvalidated)'}
+            'home_games':hs['games'],'away_games':a['games'],'original':original,
+            'model_version':'v0.3 adjusted model (2026–27 baseline, unvalidated)'}
 
 def american_units(price):
     if price is None or price==0: return None
@@ -286,18 +320,30 @@ def run():
         rec['market']=info
         rec['prediction']=calc
         rows.append(rec)
-        # Snapshotted only before tipoff; no changing historical pick after game begins.
-        if pregame and g['id'] not in picks and calc and calc['watch'] and info:
-            side=calc['watch'];price=info['over_price' if side=='OVER' else 'under_price']
-            if price is not None:
-                picks[g['id']]={'event_id':g['id'],'date':g['date'],'home':g['home'],'away':g['away'],
-                  'side':side,'line':info['line'],'price':price,'book':info['book'],
-                  'projection':calc['total'],'edge':calc['edge'],'timestamp':stamp,
-                  'result':'pending','units':None,'paper_only':True}
+        # Only lock picks after BOTH teams have >= 10 qualifying games.
+        # V1 and V2 receive independent, immutable pregame entries.
+        if pregame and calc and not calc['preview'] and info:
+            for model_name, model_calc in (('v1',calc.get('original')),('v2',calc)):
+                if not model_calc or not model_calc.get('watch'): continue
+                pick_key=g['id']+'|'+model_name
+                if pick_key in picks or (model_name=='v2' and g['id'] in picks): continue
+                side=model_calc['watch']
+                price=info['over_price' if side=='OVER' else 'under_price']
+                if price is None: continue
+                picks[pick_key]={'event_id':g['id'],'date':g['date'],'home':g['home'],'away':g['away'],
+                  'model':model_name,'side':side,'line':info['line'],'price':price,
+                  'book':info['book'],'projection':model_calc['total'],'edge':model_calc['edge'],
+                  'timestamp':stamp,'result':'pending','units':None,'paper_only':True}
     picks=grade_paper(picks,archive)
-    settled=[p for p in picks.values() if p.get('result') in ('win','loss','push')]
-    wins=sum(p['result']=='win' for p in settled);losses=sum(p['result']=='loss' for p in settled)
-    units=round(sum(p['units'] or 0 for p in settled),2)
+    def perf(model_name):
+        relevant=[p for p in picks.values() if p.get('model','v2')==model_name]
+        settled=[p for p in relevant if p.get('result') in ('win','loss','push')]
+        wins=sum(p['result']=='win' for p in settled)
+        losses=sum(p['result']=='loss' for p in settled)
+        return {'wins':wins,'losses':losses,'pushes':len(settled)-wins-losses,
+                'units':round(sum(p.get('units') or 0 for p in settled),2),
+                'pending':sum(p.get('result')=='pending' for p in relevant)}
+    v1_perf=perf('v1'); v2_perf=perf('v2')
     dashboard={
       'generated_at':stamp,'season':'2026–27','source_status':{
         'games_archived':len(archive),'teams_with_stats':len(stats),
@@ -307,13 +353,14 @@ def run():
         'odds_snapshots_saved':len(odds_snapshots),
         'injuries_integrated':False},
       'settings':{'min_games':MIN_GAMES,'preview_min_games':PREVIEW_MIN_GAMES,'watch_edge':WATCH_EDGE,'start_date':str(START)},
-      'performance':{'wins':wins,'losses':losses,'pushes':len(settled)-wins-losses,'units':units,
-                     'pending':sum(p.get('result')=='pending' for p in picks.values())},
+      'performance':v2_perf,'performance_by_model':{'v1':v1_perf,'v2':v2_perf},
       'games':rows,'teams':sorted(stats.values(),key=lambda r:r['team']),
       'paper_bets':sorted(picks.values(),key=lambda p:p.get('date',''),reverse=True)[:150],
-      'notes':['PREVIEW projections appear after each team has at least one valid current-season game and are excluded from paper tracking.',
+      'notes':['V1 exactly reproduces the original Excel arithmetic using 2026–27 derived pace/ratings; inputs are approximate, not the old workbook values.',
+               'Historical Excel workbook reports 40–28, +8.1128u but does not prove predictions were frozen at tipoff.',
+               'PREVIEW projections appear after each team has at least one valid current-season game and are excluded from paper tracking.',
                'Official WATCH signals require 10 qualifying games per team.',
-               'Projections use 2026–27 stats only and are not validated.',
+               'Both projections use 2026–27 stats only and are not validated.',
                'Injury and rotation adjustments are not integrated yet.',
                'ESPN data is unofficial; missing boxscores intentionally prevent predictions.',
                'Watch signals are research/paper-tracking labels, not verified betting advantages.']
