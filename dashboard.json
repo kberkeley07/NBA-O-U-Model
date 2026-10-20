@@ -1,0 +1,9 @@
+{
+  "generated_at": null,
+  "season": "2026–27",
+  "settings": {"min_games": 10, "watch_edge": 5.5, "start_date": "2026-10-20"},
+  "source_status": {"games_archived":0,"teams_with_stats":0,"teams_ready":0,"odds_configured":false,"odds_events_available":0,"odds_credits_remaining":null,"injuries_integrated":false},
+  "performance": {"wins":0,"losses":0,"pushes":0,"units":0,"pending":0},
+  "games":[], "teams":[], "paper_bets":[],
+  "notes":["This is an unconfigured starter. Connect data sources via GitHub Actions."]
+}
