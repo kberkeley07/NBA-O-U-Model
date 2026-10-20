@@ -25,7 +25,8 @@ DATA = ROOT / 'data'
 SITE_DATA = ROOT / 'site' / 'data'
 START = dt.date(2026, 10, 20)
 TZ = ZoneInfo('America/New_York')
-MIN_GAMES = 10
+MIN_GAMES = 10          # Minimum for official WATCH/paper signals
+PREVIEW_MIN_GAMES = 1   # Minimum for experimental projections
 WATCH_EDGE = 5.5
 HEADERS = {'User-Agent': 'BerkBookNBA/0.1 (personal stats dashboard)', 'Accept':'application/json'}
 TEAMS = {
@@ -218,7 +219,7 @@ def find_odds(game, odds):
 
 def project(game, teams, league_eff, odds_info):
     hs=teams.get(game['home']); a=teams.get(game['away'])
-    if not hs or not a or not hs['ready'] or not a['ready'] or league_eff is None: return None
+    if not hs or not a or hs['games'] < PREVIEW_MIN_GAMES or a['games'] < PREVIEW_MIN_GAMES or league_eff is None: return None
     # Current-season only; shrink early efficiency against *current-season* league avg.
     hwt=hs['games']/(hs['games']+8)
     awt=a['games']/(a['games']+8)
@@ -230,9 +231,13 @@ def project(game, teams, league_eff, odds_info):
     projected=round(pace*(h_off+a_def-league_eff+a_off+h_def-league_eff)/100,1)
     if not (170 <= projected <= 290): return None
     edge=round(projected-odds_info['line'],1) if odds_info else None
-    watch='OVER' if edge is not None and edge>=WATCH_EDGE else 'UNDER' if edge is not None and edge<=-WATCH_EDGE else None
+    preview = hs['games'] < MIN_GAMES or a['games'] < MIN_GAMES
+    direction = 'OVER' if edge is not None and edge >= WATCH_EDGE else 'UNDER' if edge is not None and edge <= -WATCH_EDGE else None
+    watch = None if preview else direction
     return {'total':projected,'pace':round(pace,1),'edge':edge,'watch':watch,
-            'model_version':'v0.1 current-season baseline (unvalidated)'}
+            'preview':preview,'preview_direction':direction if preview else None,
+            'home_games':hs['games'],'away_games':a['games'],
+            'model_version':'v0.2 experimental current-season preview (unvalidated)' if preview else 'v0.2 current-season baseline (unvalidated)'}
 
 def american_units(price):
     if price is None or price==0: return None
@@ -301,12 +306,14 @@ def run():
         'odds_events_available':len(odds),'odds_credits_remaining':remaining,
         'odds_snapshots_saved':len(odds_snapshots),
         'injuries_integrated':False},
-      'settings':{'min_games':MIN_GAMES,'watch_edge':WATCH_EDGE,'start_date':str(START)},
+      'settings':{'min_games':MIN_GAMES,'preview_min_games':PREVIEW_MIN_GAMES,'watch_edge':WATCH_EDGE,'start_date':str(START)},
       'performance':{'wins':wins,'losses':losses,'pushes':len(settled)-wins-losses,'units':units,
                      'pending':sum(p.get('result')=='pending' for p in picks.values())},
       'games':rows,'teams':sorted(stats.values(),key=lambda r:r['team']),
       'paper_bets':sorted(picks.values(),key=lambda p:p.get('date',''),reverse=True)[:150],
-      'notes':['Projections use 2026–27 stats only and are not validated.',
+      'notes':['PREVIEW projections appear after each team has at least one valid current-season game and are excluded from paper tracking.',
+               'Official WATCH signals require 10 qualifying games per team.',
+               'Projections use 2026–27 stats only and are not validated.',
                'Injury and rotation adjustments are not integrated yet.',
                'ESPN data is unofficial; missing boxscores intentionally prevent predictions.',
                'Watch signals are research/paper-tracking labels, not verified betting advantages.']
