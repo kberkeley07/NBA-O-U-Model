@@ -1,51 +1,6 @@
 {
   "games": [
     {
-      "away": "Boston Celtics",
-      "away_score": 113.0,
-      "date": "2026-10-20T19:00Z",
-      "home": "Detroit Pistons",
-      "home_score": 121.0,
-      "id": "401909088",
-      "market": null,
-      "prediction": null,
-      "status": "final"
-    },
-    {
-      "away": "Philadelphia 76ers",
-      "away_score": null,
-      "date": "2026-10-20T23:00Z",
-      "home": "New York Knicks",
-      "home_score": null,
-      "id": "401909089",
-      "market": {
-        "book": "FanDuel",
-        "line": 223.0,
-        "offers": 6,
-        "over_price": -110.0,
-        "under_price": -120.0
-      },
-      "prediction": null,
-      "status": "scheduled"
-    },
-    {
-      "away": "Oklahoma City Thunder",
-      "away_score": null,
-      "date": "2026-10-21T01:30Z",
-      "home": "San Antonio Spurs",
-      "home_score": null,
-      "id": "401909090",
-      "market": {
-        "book": "FanDuel",
-        "line": 230.5,
-        "offers": 9,
-        "over_price": -102.0,
-        "under_price": -120.0
-      },
-      "prediction": null,
-      "status": "scheduled"
-    },
-    {
       "away": "Atlanta Hawks",
       "away_score": null,
       "date": "2026-10-21T23:00Z",
@@ -53,11 +8,11 @@
       "home_score": null,
       "id": "401909834",
       "market": {
-        "book": "DraftKings",
-        "line": 235.5,
+        "book": "Bovada",
+        "line": 235.0,
         "offers": 9,
-        "over_price": -112.0,
-        "under_price": -108.0
+        "over_price": -110.0,
+        "under_price": -110.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -70,11 +25,11 @@
       "home_score": null,
       "id": "401909835",
       "market": {
-        "book": "DraftKings",
-        "line": 239.5,
+        "book": "BetOnline.ag",
+        "line": 239.0,
         "offers": 9,
-        "over_price": -112.0,
-        "under_price": -108.0
+        "over_price": -105.0,
+        "under_price": -115.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -87,11 +42,11 @@
       "home_score": null,
       "id": "401909091",
       "market": {
-        "book": "LowVig.ag",
-        "line": 243.0,
+        "book": "DraftKings",
+        "line": 239.5,
         "offers": 9,
-        "over_price": -107.0,
-        "under_price": -107.0
+        "over_price": -105.0,
+        "under_price": -115.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -105,7 +60,7 @@
       "id": "401909836",
       "market": {
         "book": "DraftKings",
-        "line": 218.5,
+        "line": 219.5,
         "offers": 9,
         "over_price": -112.0,
         "under_price": -108.0
@@ -139,8 +94,8 @@
       "id": "401909838",
       "market": {
         "book": "Bovada",
-        "line": 239.75,
-        "offers": 8,
+        "line": 242.0,
+        "offers": 9,
         "over_price": -110.0,
         "under_price": -110.0
       },
@@ -155,11 +110,11 @@
       "home_score": null,
       "id": "401909839",
       "market": {
-        "book": "LowVig.ag",
-        "line": 240.0,
-        "offers": 8,
-        "over_price": -107.0,
-        "under_price": -107.0
+        "book": "DraftKings",
+        "line": 239.5,
+        "offers": 9,
+        "over_price": -115.0,
+        "under_price": -105.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -172,11 +127,11 @@
       "home_score": null,
       "id": "401909840",
       "market": {
-        "book": "Bovada",
-        "line": 230.25,
-        "offers": 8,
+        "book": "BetMGM",
+        "line": 230.5,
+        "offers": 9,
         "over_price": -110.0,
-        "under_price": -110.0
+        "under_price": -118.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -191,7 +146,7 @@
       "market": {
         "book": "Bovada",
         "line": 234.0,
-        "offers": 8,
+        "offers": 9,
         "over_price": -110.0,
         "under_price": -110.0
       },
@@ -208,9 +163,9 @@
       "market": {
         "book": "DraftKings",
         "line": 231.5,
-        "offers": 8,
-        "over_price": -105.0,
-        "under_price": -115.0
+        "offers": 9,
+        "over_price": -112.0,
+        "under_price": -108.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -223,17 +178,51 @@
       "home_score": null,
       "id": "401909842",
       "market": {
-        "book": "BetMGM",
-        "line": 228.25,
-        "offers": 8,
+        "book": "FanDuel",
+        "line": 227.5,
+        "offers": 9,
         "over_price": -110.0,
         "under_price": -110.0
       },
       "prediction": null,
       "status": "scheduled"
+    },
+    {
+      "away": "Cleveland Cavaliers",
+      "away_score": null,
+      "date": "2026-10-22T23:00Z",
+      "home": "Philadelphia 76ers",
+      "home_score": null,
+      "id": "401909093",
+      "market": {
+        "book": "DraftKings",
+        "line": 235.5,
+        "offers": 7,
+        "over_price": -105.0,
+        "under_price": -115.0
+      },
+      "prediction": null,
+      "status": "scheduled"
+    },
+    {
+      "away": "Denver Nuggets",
+      "away_score": null,
+      "date": "2026-10-23T01:30Z",
+      "home": "Oklahoma City Thunder",
+      "home_score": null,
+      "id": "401909094",
+      "market": {
+        "book": "DraftKings",
+        "line": 235.5,
+        "offers": 7,
+        "over_price": -115.0,
+        "under_price": -105.0
+      },
+      "prediction": null,
+      "status": "scheduled"
     }
   ],
-  "generated_at": "2026-10-21T00:09:48.535971+00:00",
+  "generated_at": "2026-10-21T13:04:57.506618+00:00",
   "notes": [
     "V1 exactly reproduces the original Excel arithmetic using 2026–27 derived pace/ratings; inputs are approximate, not the old workbook values.",
     "Historical Excel workbook reports 40–28, +8.1128u but does not prove predictions were frozen at tipoff.",
@@ -276,14 +265,14 @@
     "watch_edge": 5.5
   },
   "source_status": {
-    "games_archived": 1,
+    "games_archived": 3,
     "injuries_integrated": false,
     "odds_configured": true,
-    "odds_credits_remaining": "496",
-    "odds_events_available": 45,
-    "odds_snapshots_saved": 54,
+    "odds_credits_remaining": "495",
+    "odds_events_available": 43,
+    "odds_snapshots_saved": 67,
     "teams_ready": 0,
-    "teams_with_stats": 2
+    "teams_with_stats": 6
   },
   "teams": [
     {
@@ -301,6 +290,38 @@
       "pace": 103.08,
       "ready": false,
       "team": "Detroit Pistons"
+    },
+    {
+      "drtg": 101.07,
+      "games": 1,
+      "ortg": 94.45,
+      "pace": 105.88,
+      "ready": false,
+      "team": "New York Knicks"
+    },
+    {
+      "drtg": 97.2,
+      "games": 1,
+      "ortg": 110.69,
+      "pace": 104.8,
+      "ready": false,
+      "team": "Oklahoma City Thunder"
+    },
+    {
+      "drtg": 94.45,
+      "games": 1,
+      "ortg": 101.07,
+      "pace": 104.88,
+      "ready": false,
+      "team": "Philadelphia 76ers"
+    },
+    {
+      "drtg": 110.69,
+      "games": 1,
+      "ortg": 97.2,
+      "pace": 107.0,
+      "ready": false,
+      "team": "San Antonio Spurs"
     }
   ]
 }
