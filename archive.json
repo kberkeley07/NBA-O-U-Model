@@ -1,1 +1,28 @@
-{}
+{
+  "401909088": {
+    "away": "Boston Celtics",
+    "away_box": {
+      "fga": 88.0,
+      "fta": 21.0,
+      "orb": 12.0,
+      "poss": 99.24,
+      "tov": 14.0
+    },
+    "away_score": 113.0,
+    "away_team_id": "2",
+    "date": "2026-10-20T19:00Z",
+    "home": "Detroit Pistons",
+    "home_box": {
+      "fga": 86.0,
+      "fta": 32.0,
+      "orb": 14.0,
+      "poss": 103.08,
+      "tov": 17.0
+    },
+    "home_score": 121.0,
+    "home_team_id": "8",
+    "id": "401909088",
+    "period": 4,
+    "status": "final"
+  }
+}
