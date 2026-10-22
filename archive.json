@@ -76,5 +76,291 @@
     "id": "401909090",
     "period": 4,
     "status": "final"
+  },
+  "401909091": {
+    "away": "Minnesota Timberwolves",
+    "away_box": {
+      "fga": 98.0,
+      "fta": 29.0,
+      "orb": 17.0,
+      "poss": 107.76,
+      "tov": 14.0
+    },
+    "away_score": 131.0,
+    "away_team_id": "16",
+    "date": "2026-10-21T23:30Z",
+    "home": "Miami Heat",
+    "home_box": {
+      "fga": 81.0,
+      "fta": 26.0,
+      "orb": 4.0,
+      "poss": 106.44,
+      "tov": 18.0
+    },
+    "home_score": 106.0,
+    "home_team_id": "14",
+    "id": "401909091",
+    "period": 4,
+    "status": "final"
+  },
+  "401909092": {
+    "away": "Golden State Warriors",
+    "away_box": {
+      "fga": 92.0,
+      "fta": 27.0,
+      "orb": 15.0,
+      "poss": 103.88,
+      "tov": 15.0
+    },
+    "away_score": 105.0,
+    "away_team_id": "9",
+    "date": "2026-10-22T02:00Z",
+    "home": "Los Angeles Lakers",
+    "home_box": {
+      "fga": 81.0,
+      "fta": 27.0,
+      "orb": 10.0,
+      "poss": 100.88,
+      "tov": 18.0
+    },
+    "home_score": 127.0,
+    "home_team_id": "13",
+    "id": "401909092",
+    "period": 4,
+    "status": "final"
+  },
+  "401909834": {
+    "away": "Atlanta Hawks",
+    "away_box": {
+      "fga": 90.0,
+      "fta": 36.0,
+      "orb": 11.0,
+      "poss": 111.84,
+      "tov": 17.0
+    },
+    "away_score": 132.0,
+    "away_team_id": "1",
+    "date": "2026-10-21T23:00Z",
+    "home": "Orlando Magic",
+    "home_box": {
+      "fga": 85.0,
+      "fta": 39.0,
+      "orb": 9.0,
+      "poss": 113.16,
+      "tov": 20.0
+    },
+    "home_score": 125.0,
+    "home_team_id": "19",
+    "id": "401909834",
+    "period": 4,
+    "status": "final"
+  },
+  "401909835": {
+    "away": "Milwaukee Bucks",
+    "away_box": {
+      "fga": 91.0,
+      "fta": 23.0,
+      "orb": 13.0,
+      "poss": 104.12,
+      "tov": 16.0
+    },
+    "away_score": 116.0,
+    "away_team_id": "15",
+    "date": "2026-10-21T23:00Z",
+    "home": "Washington Wizards",
+    "home_box": {
+      "fga": 86.0,
+      "fta": 41.0,
+      "orb": 12.0,
+      "poss": 103.04,
+      "tov": 11.0
+    },
+    "home_score": 128.0,
+    "home_team_id": "27",
+    "id": "401909835",
+    "period": 4,
+    "status": "final"
+  },
+  "401909836": {
+    "away": "Charlotte Hornets",
+    "away_box": {
+      "fga": 93.0,
+      "fta": 15.0,
+      "orb": 15.0,
+      "poss": 104.6,
+      "tov": 20.0
+    },
+    "away_score": 110.0,
+    "away_team_id": "30",
+    "date": "2026-10-21T23:30Z",
+    "home": "Brooklyn Nets",
+    "home_box": {
+      "fga": 80.0,
+      "fta": 25.0,
+      "orb": 11.0,
+      "poss": 102.0,
+      "tov": 22.0
+    },
+    "home_score": 103.0,
+    "home_team_id": "17",
+    "id": "401909836",
+    "period": 4,
+    "status": "final"
+  },
+  "401909837": {
+    "away": "Chicago Bulls",
+    "away_box": {
+      "fga": 85.0,
+      "fta": 47.0,
+      "orb": 21.0,
+      "poss": 111.68,
+      "tov": 27.0
+    },
+    "away_score": 92.0,
+    "away_team_id": "4",
+    "date": "2026-10-21T23:30Z",
+    "home": "Toronto Raptors",
+    "home_box": {
+      "fga": 98.0,
+      "fta": 46.0,
+      "orb": 16.0,
+      "poss": 112.24,
+      "tov": 10.0
+    },
+    "home_score": 135.0,
+    "home_team_id": "28",
+    "id": "401909837",
+    "period": 4,
+    "status": "final"
+  },
+  "401909838": {
+    "away": "Utah Jazz",
+    "away_box": {
+      "fga": 75.0,
+      "fta": 33.0,
+      "orb": 5.0,
+      "poss": 102.52,
+      "tov": 18.0
+    },
+    "away_score": 103.0,
+    "away_team_id": "26",
+    "date": "2026-10-22T00:00Z",
+    "home": "Memphis Grizzlies",
+    "home_box": {
+      "fga": 93.0,
+      "fta": 28.0,
+      "orb": 15.0,
+      "poss": 103.32,
+      "tov": 13.0
+    },
+    "home_score": 123.0,
+    "home_team_id": "29",
+    "id": "401909838",
+    "period": 4,
+    "status": "final"
+  },
+  "401909839": {
+    "away": "Indiana Pacers",
+    "away_box": {
+      "fga": 90.0,
+      "fta": 29.0,
+      "orb": 9.0,
+      "poss": 106.76,
+      "tov": 13.0
+    },
+    "away_score": 123.0,
+    "away_team_id": "11",
+    "date": "2026-10-22T00:00Z",
+    "home": "New Orleans Pelicans",
+    "home_box": {
+      "fga": 89.0,
+      "fta": 37.0,
+      "orb": 14.0,
+      "poss": 105.28,
+      "tov": 14.0
+    },
+    "home_score": 120.0,
+    "home_team_id": "3",
+    "id": "401909839",
+    "period": 4,
+    "status": "final"
+  },
+  "401909840": {
+    "away": "Dallas Mavericks",
+    "away_box": {
+      "fga": 79.0,
+      "fta": 26.0,
+      "orb": 8.0,
+      "poss": 103.44,
+      "tov": 21.0
+    },
+    "away_score": 110.0,
+    "away_team_id": "6",
+    "date": "2026-10-22T00:30Z",
+    "home": "Houston Rockets",
+    "home_box": {
+      "fga": 88.0,
+      "fta": 25.0,
+      "orb": 17.0,
+      "poss": 97.0,
+      "tov": 15.0
+    },
+    "home_score": 128.0,
+    "home_team_id": "10",
+    "id": "401909840",
+    "period": 4,
+    "status": "final"
+  },
+  "401909841": {
+    "away": "Phoenix Suns",
+    "away_box": {
+      "fga": 84.0,
+      "fta": 23.0,
+      "orb": 13.0,
+      "poss": 96.12,
+      "tov": 15.0
+    },
+    "away_score": 83.0,
+    "away_team_id": "21",
+    "date": "2026-10-22T02:00Z",
+    "home": "Portland Trail Blazers",
+    "home_box": {
+      "fga": 94.0,
+      "fta": 18.0,
+      "orb": 16.0,
+      "poss": 102.92,
+      "tov": 17.0
+    },
+    "home_score": 124.0,
+    "home_team_id": "22",
+    "id": "401909841",
+    "period": 4,
+    "status": "final"
+  },
+  "401909842": {
+    "away": "Sacramento Kings",
+    "away_box": {
+      "fga": 85.0,
+      "fta": 28.0,
+      "orb": 11.0,
+      "poss": 103.32,
+      "tov": 17.0
+    },
+    "away_score": 96.0,
+    "away_team_id": "23",
+    "date": "2026-10-22T02:30Z",
+    "home": "Los Angeles Clippers",
+    "home_box": {
+      "fga": 82.0,
+      "fta": 31.0,
+      "orb": 11.0,
+      "poss": 101.64,
+      "tov": 17.0
+    },
+    "home_score": 121.0,
+    "home_team_id": "12",
+    "id": "401909842",
+    "period": 4,
+    "status": "final"
   }
 }
