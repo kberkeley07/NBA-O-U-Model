@@ -8,11 +8,11 @@
       "home_score": null,
       "id": "401909834",
       "market": {
-        "book": "Bovada",
-        "line": 234.0,
-        "offers": 9,
-        "over_price": -110.0,
-        "under_price": -110.0
+        "book": "BetMGM",
+        "line": 239.5,
+        "offers": 6,
+        "over_price": -115.0,
+        "under_price": -115.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -25,11 +25,11 @@
       "home_score": null,
       "id": "401909835",
       "market": {
-        "book": "DraftKings",
-        "line": 238.5,
-        "offers": 9,
-        "over_price": -110.0,
-        "under_price": -110.0
+        "book": "BetMGM",
+        "line": 228.0,
+        "offers": 6,
+        "over_price": -115.0,
+        "under_price": -115.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -42,11 +42,11 @@
       "home_score": null,
       "id": "401909091",
       "market": {
-        "book": "Bovada",
-        "line": 240.0,
-        "offers": 9,
+        "book": "DraftKings",
+        "line": 249.0,
+        "offers": 6,
         "over_price": -110.0,
-        "under_price": -110.0
+        "under_price": -120.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -59,11 +59,11 @@
       "home_score": null,
       "id": "401909836",
       "market": {
-        "book": "DraftKings",
-        "line": 219.5,
-        "offers": 9,
-        "over_price": -110.0,
-        "under_price": -110.0
+        "book": "BetRivers",
+        "line": 213.5,
+        "offers": 6,
+        "over_price": -118.0,
+        "under_price": -113.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -77,10 +77,10 @@
       "id": "401909837",
       "market": {
         "book": "FanDuel",
-        "line": 237.5,
-        "offers": 9,
-        "over_price": -110.0,
-        "under_price": -110.0
+        "line": 242.75,
+        "offers": 6,
+        "over_price": -146.0,
+        "under_price": 110.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -93,11 +93,11 @@
       "home_score": null,
       "id": "401909838",
       "market": {
-        "book": "DraftKings",
-        "line": 242.5,
+        "book": "LowVig.ag",
+        "line": 242.0,
         "offers": 9,
-        "over_price": -105.0,
-        "under_price": -115.0
+        "over_price": -107.0,
+        "under_price": -107.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -110,11 +110,11 @@
       "home_score": null,
       "id": "401909839",
       "market": {
-        "book": "DraftKings",
-        "line": 239.5,
+        "book": "Bovada",
+        "line": 242.5,
         "offers": 9,
-        "over_price": -108.0,
-        "under_price": -112.0
+        "over_price": -115.0,
+        "under_price": -115.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -127,11 +127,11 @@
       "home_score": null,
       "id": "401909840",
       "market": {
-        "book": "DraftKings",
-        "line": 230.5,
+        "book": "LowVig.ag",
+        "line": 230.0,
         "offers": 9,
-        "over_price": -105.0,
-        "under_price": -115.0
+        "over_price": -107.0,
+        "under_price": -107.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -164,8 +164,8 @@
         "book": "DraftKings",
         "line": 231.5,
         "offers": 9,
-        "over_price": -108.0,
-        "under_price": -112.0
+        "over_price": -112.0,
+        "under_price": -108.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -178,11 +178,11 @@
       "home_score": null,
       "id": "401909842",
       "market": {
-        "book": "FanDuel",
-        "line": 227.5,
+        "book": "LowVig.ag",
+        "line": 227.0,
         "offers": 9,
-        "over_price": -105.0,
-        "under_price": -115.0
+        "over_price": -104.0,
+        "under_price": -110.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -195,11 +195,11 @@
       "home_score": null,
       "id": "401909093",
       "market": {
-        "book": "LowVig.ag",
-        "line": 235.0,
-        "offers": 8,
-        "over_price": -107.0,
-        "under_price": -107.0
+        "book": "DraftKings",
+        "line": 235.5,
+        "offers": 9,
+        "over_price": -112.0,
+        "under_price": -108.0
       },
       "prediction": null,
       "status": "scheduled"
@@ -215,14 +215,14 @@
         "book": "DraftKings",
         "line": 235.5,
         "offers": 8,
-        "over_price": -115.0,
-        "under_price": -105.0
+        "over_price": -110.0,
+        "under_price": -110.0
       },
       "prediction": null,
       "status": "scheduled"
     }
   ],
-  "generated_at": "2026-10-21T17:14:33.723525+00:00",
+  "generated_at": "2026-10-22T00:15:31.339723+00:00",
   "notes": [
     "V1 exactly reproduces the original Excel arithmetic using 2026–27 derived pace/ratings; inputs are approximate, not the old workbook values.",
     "Historical Excel workbook reports 40–28, +8.1128u but does not prove predictions were frozen at tipoff.",
@@ -268,9 +268,9 @@
     "games_archived": 3,
     "injuries_integrated": false,
     "odds_configured": true,
-    "odds_credits_remaining": "494",
+    "odds_credits_remaining": "493",
     "odds_events_available": 43,
-    "odds_snapshots_saved": 80,
+    "odds_snapshots_saved": 86,
     "teams_ready": 0,
     "teams_with_stats": 6
   },
