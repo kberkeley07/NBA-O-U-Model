@@ -1558,5 +1558,101 @@
     "offers": 9,
     "over_price": -112.0,
     "under_price": -108.0
+  },
+  {
+    "away": "Miami Heat",
+    "book": "FanDuel",
+    "captured_at": "2026-10-24T15:58:47.413020+00:00",
+    "commence_time": "2026-10-24T22:00Z",
+    "event_id": "401909853",
+    "home": "Charlotte Hornets",
+    "line": 229.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Brooklyn Nets",
+    "book": "LowVig.ag",
+    "captured_at": "2026-10-24T15:58:47.413020+00:00",
+    "commence_time": "2026-10-24T23:30Z",
+    "event_id": "401909854",
+    "home": "Cleveland Cavaliers",
+    "line": 228.0,
+    "offers": 9,
+    "over_price": -102.0,
+    "under_price": -113.0
+  },
+  {
+    "away": "Milwaukee Bucks",
+    "book": "MyBookie.ag",
+    "captured_at": "2026-10-24T15:58:47.413020+00:00",
+    "commence_time": "2026-10-24T23:30Z",
+    "event_id": "401909855",
+    "home": "Philadelphia 76ers",
+    "line": 235.0,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Washington Wizards",
+    "book": "LowVig.ag",
+    "captured_at": "2026-10-24T15:58:47.413020+00:00",
+    "commence_time": "2026-10-25T00:00Z",
+    "event_id": "401909857",
+    "home": "Chicago Bulls",
+    "line": 244.0,
+    "offers": 9,
+    "over_price": -107.0,
+    "under_price": -107.0
+  },
+  {
+    "away": "San Antonio Spurs",
+    "book": "MyBookie.ag",
+    "captured_at": "2026-10-24T15:58:47.413020+00:00",
+    "commence_time": "2026-10-25T00:00Z",
+    "event_id": "401909858",
+    "home": "Dallas Mavericks",
+    "line": 232.0,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Houston Rockets",
+    "book": "FanDuel",
+    "captured_at": "2026-10-24T15:58:47.413020+00:00",
+    "commence_time": "2026-10-25T00:30Z",
+    "event_id": "401909856",
+    "home": "Atlanta Hawks",
+    "line": 227.5,
+    "offers": 9,
+    "over_price": -105.0,
+    "under_price": -115.0
+  },
+  {
+    "away": "New Orleans Pelicans",
+    "book": "LowVig.ag",
+    "captured_at": "2026-10-24T15:58:47.413020+00:00",
+    "commence_time": "2026-10-25T01:00Z",
+    "event_id": "401909859",
+    "home": "Denver Nuggets",
+    "line": 240.0,
+    "offers": 9,
+    "over_price": -115.0,
+    "under_price": 100.0
+  },
+  {
+    "away": "Golden State Warriors",
+    "book": "FanDuel",
+    "captured_at": "2026-10-24T15:58:47.413020+00:00",
+    "commence_time": "2026-10-25T02:00Z",
+    "event_id": "401909860",
+    "home": "Phoenix Suns",
+    "line": 221.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
   }
 ]

@@ -181,6 +181,58 @@
     "period": 4,
     "status": "final"
   },
+  "401909095": {
+    "away": "New York Knicks",
+    "away_box": {
+      "fga": 80.0,
+      "fta": 21.0,
+      "orb": 12.0,
+      "poss": 93.24,
+      "tov": 16.0
+    },
+    "away_score": 103.0,
+    "away_team_id": "18",
+    "date": "2026-10-23T23:00Z",
+    "home": "Boston Celtics",
+    "home_box": {
+      "fga": 87.0,
+      "fta": 16.0,
+      "orb": 10.0,
+      "poss": 94.04,
+      "tov": 10.0
+    },
+    "home_score": 107.0,
+    "home_team_id": "2",
+    "id": "401909095",
+    "period": 4,
+    "status": "final"
+  },
+  "401909096": {
+    "away": "Houston Rockets",
+    "away_box": {
+      "fga": 78.0,
+      "fta": 31.0,
+      "orb": 8.0,
+      "poss": 98.64,
+      "tov": 15.0
+    },
+    "away_score": 114.0,
+    "away_team_id": "10",
+    "date": "2026-10-24T01:30Z",
+    "home": "San Antonio Spurs",
+    "home_box": {
+      "fga": 87.0,
+      "fta": 25.0,
+      "orb": 9.0,
+      "poss": 104.0,
+      "tov": 15.0
+    },
+    "home_score": 110.0,
+    "home_team_id": "24",
+    "id": "401909096",
+    "period": 4,
+    "status": "final"
+  },
   "401909834": {
     "away": "Atlanta Hawks",
     "away_box": {
@@ -415,6 +467,136 @@
     "period": 4,
     "status": "final"
   },
+  "401909843": {
+    "away": "Atlanta Hawks",
+    "away_box": {
+      "fga": 95.0,
+      "fta": 22.0,
+      "orb": 12.0,
+      "poss": 104.68,
+      "tov": 12.0
+    },
+    "away_score": 128.0,
+    "away_team_id": "1",
+    "date": "2026-10-23T23:00Z",
+    "home": "Charlotte Hornets",
+    "home_box": {
+      "fga": 87.0,
+      "fta": 12.0,
+      "orb": 19.0,
+      "poss": 98.28,
+      "tov": 25.0
+    },
+    "home_score": 81.0,
+    "home_team_id": "30",
+    "id": "401909843",
+    "period": 4,
+    "status": "final"
+  },
+  "401909844": {
+    "away": "Dallas Mavericks",
+    "away_box": {
+      "fga": 88.0,
+      "fta": 23.0,
+      "orb": 11.0,
+      "poss": 101.12,
+      "tov": 14.0
+    },
+    "away_score": 121.0,
+    "away_team_id": "6",
+    "date": "2026-10-23T23:00Z",
+    "home": "Indiana Pacers",
+    "home_box": {
+      "fga": 88.0,
+      "fta": 28.0,
+      "orb": 13.0,
+      "poss": 106.32,
+      "tov": 19.0
+    },
+    "home_score": 105.0,
+    "home_team_id": "11",
+    "id": "401909844",
+    "period": 4,
+    "status": "final"
+  },
+  "401909845": {
+    "away": "Minnesota Timberwolves",
+    "away_box": {
+      "fga": 98.0,
+      "fta": 30.0,
+      "orb": 22.0,
+      "poss": 101.2,
+      "tov": 12.0
+    },
+    "away_score": 115.0,
+    "away_team_id": "16",
+    "date": "2026-10-23T23:00Z",
+    "home": "Orlando Magic",
+    "home_box": {
+      "fga": 84.0,
+      "fta": 19.0,
+      "orb": 8.0,
+      "poss": 100.36,
+      "tov": 16.0
+    },
+    "home_score": 93.0,
+    "home_team_id": "19",
+    "id": "401909845",
+    "period": 4,
+    "status": "final"
+  },
+  "401909846": {
+    "away": "Toronto Raptors",
+    "away_box": {
+      "fga": 101.0,
+      "fta": 21.0,
+      "orb": 19.0,
+      "poss": 107.24,
+      "tov": 16.0
+    },
+    "away_score": 112.0,
+    "away_team_id": "28",
+    "date": "2026-10-23T23:00Z",
+    "home": "Washington Wizards",
+    "home_box": {
+      "fga": 79.0,
+      "fta": 35.0,
+      "orb": 6.0,
+      "poss": 108.4,
+      "tov": 20.0
+    },
+    "home_score": 102.0,
+    "home_team_id": "27",
+    "id": "401909846",
+    "period": 4,
+    "status": "final"
+  },
+  "401909847": {
+    "away": "Detroit Pistons",
+    "away_box": {
+      "fga": 89.0,
+      "fta": 20.0,
+      "orb": 12.0,
+      "poss": 104.8,
+      "tov": 19.0
+    },
+    "away_score": 128.0,
+    "away_team_id": "8",
+    "date": "2026-10-24T00:00Z",
+    "home": "Miami Heat",
+    "home_box": {
+      "fga": 102.0,
+      "fta": 28.0,
+      "orb": 18.0,
+      "poss": 108.32,
+      "tov": 12.0
+    },
+    "home_score": 111.0,
+    "home_team_id": "14",
+    "id": "401909847",
+    "period": 4,
+    "status": "final"
+  },
   "401909848": {
     "away": "Chicago Bulls",
     "away_box": {
@@ -438,6 +620,110 @@
     "home_score": 125.0,
     "home_team_id": "15",
     "id": "401909848",
+    "period": 4,
+    "status": "final"
+  },
+  "401909849": {
+    "away": "New Orleans Pelicans",
+    "away_box": {
+      "fga": 87.0,
+      "fta": 27.0,
+      "orb": 9.0,
+      "poss": 104.88,
+      "tov": 15.0
+    },
+    "away_score": 119.0,
+    "away_team_id": "3",
+    "date": "2026-10-24T01:30Z",
+    "home": "Utah Jazz",
+    "home_box": {
+      "fga": 84.0,
+      "fta": 33.0,
+      "orb": 14.0,
+      "poss": 102.52,
+      "tov": 18.0
+    },
+    "home_score": 120.0,
+    "home_team_id": "26",
+    "id": "401909849",
+    "period": 4,
+    "status": "final"
+  },
+  "401909850": {
+    "away": "Memphis Grizzlies",
+    "away_box": {
+      "fga": 86.0,
+      "fta": 22.0,
+      "orb": 18.0,
+      "poss": 102.68,
+      "tov": 25.0
+    },
+    "away_score": 111.0,
+    "away_team_id": "29",
+    "date": "2026-10-24T02:00Z",
+    "home": "Golden State Warriors",
+    "home_box": {
+      "fga": 83.0,
+      "fta": 29.0,
+      "orb": 18.0,
+      "poss": 96.76,
+      "tov": 19.0
+    },
+    "home_score": 108.0,
+    "home_team_id": "9",
+    "id": "401909850",
+    "period": 4,
+    "status": "final"
+  },
+  "401909851": {
+    "away": "Los Angeles Clippers",
+    "away_box": {
+      "fga": 83.0,
+      "fta": 25.0,
+      "orb": 11.0,
+      "poss": 108.0,
+      "tov": 25.0
+    },
+    "away_score": 117.0,
+    "away_team_id": "12",
+    "date": "2026-10-24T02:00Z",
+    "home": "Los Angeles Lakers",
+    "home_box": {
+      "fga": 79.0,
+      "fta": 25.0,
+      "orb": 8.0,
+      "poss": 103.0,
+      "tov": 21.0
+    },
+    "home_score": 125.0,
+    "home_team_id": "13",
+    "id": "401909851",
+    "period": 4,
+    "status": "final"
+  },
+  "401909852": {
+    "away": "Portland Trail Blazers",
+    "away_box": {
+      "fga": 96.0,
+      "fta": 30.0,
+      "orb": 13.0,
+      "poss": 105.2,
+      "tov": 9.0
+    },
+    "away_score": 128.0,
+    "away_team_id": "22",
+    "date": "2026-10-24T02:00Z",
+    "home": "Sacramento Kings",
+    "home_box": {
+      "fga": 91.0,
+      "fta": 30.0,
+      "orb": 10.0,
+      "poss": 108.2,
+      "tov": 14.0
+    },
+    "home_score": 120.0,
+    "home_team_id": "23",
+    "id": "401909852",
     "period": 4,
     "status": "final"
   }
