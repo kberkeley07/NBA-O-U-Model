@@ -414,5 +414,31 @@
     "id": "401909842",
     "period": 4,
     "status": "final"
+  },
+  "401909848": {
+    "away": "Chicago Bulls",
+    "away_box": {
+      "fga": 98.0,
+      "fta": 30.0,
+      "orb": 13.0,
+      "poss": 112.2,
+      "tov": 14.0
+    },
+    "away_score": 132.0,
+    "away_team_id": "4",
+    "date": "2026-10-23T20:00Z",
+    "home": "Milwaukee Bucks",
+    "home_box": {
+      "fga": 92.0,
+      "fta": 26.0,
+      "orb": 11.0,
+      "poss": 111.44,
+      "tov": 19.0
+    },
+    "home_score": 125.0,
+    "home_team_id": "15",
+    "id": "401909848",
+    "period": 4,
+    "status": "final"
   }
 }
