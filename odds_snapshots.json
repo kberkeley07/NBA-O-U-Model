@@ -1714,5 +1714,89 @@
     "offers": 9,
     "over_price": -110.0,
     "under_price": -110.0
+  },
+  {
+    "away": "Los Angeles Lakers",
+    "book": "BetOnline.ag",
+    "captured_at": "2026-10-25T16:24:20.809003+00:00",
+    "commence_time": "2026-10-25T21:00Z",
+    "event_id": "401909861",
+    "home": "Utah Jazz",
+    "line": 237.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Indiana Pacers",
+    "book": "DraftKings",
+    "captured_at": "2026-10-25T16:24:20.809003+00:00",
+    "commence_time": "2026-10-25T22:00Z",
+    "event_id": "401909862",
+    "home": "Brooklyn Nets",
+    "line": 231.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Orlando Magic",
+    "book": "Bovada",
+    "captured_at": "2026-10-25T16:24:20.809003+00:00",
+    "commence_time": "2026-10-25T23:00Z",
+    "event_id": "401909863",
+    "home": "New York Knicks",
+    "line": 224.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Toronto Raptors",
+    "book": "DraftKings",
+    "captured_at": "2026-10-25T16:24:20.809003+00:00",
+    "commence_time": "2026-10-25T23:00Z",
+    "event_id": "401909864",
+    "home": "Minnesota Timberwolves",
+    "line": 229.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Los Angeles Clippers",
+    "book": "DraftKings",
+    "captured_at": "2026-10-25T16:24:20.809003+00:00",
+    "commence_time": "2026-10-25T23:00Z",
+    "event_id": "401909865",
+    "home": "Oklahoma City Thunder",
+    "line": 224.5,
+    "offers": 9,
+    "over_price": -108.0,
+    "under_price": -112.0
+  },
+  {
+    "away": "Detroit Pistons",
+    "book": "DraftKings",
+    "captured_at": "2026-10-25T16:24:20.809003+00:00",
+    "commence_time": "2026-10-25T23:30Z",
+    "event_id": "401909866",
+    "home": "Philadelphia 76ers",
+    "line": 227.5,
+    "offers": 9,
+    "over_price": -115.0,
+    "under_price": -105.0
+  },
+  {
+    "away": "Memphis Grizzlies",
+    "book": "Bovada",
+    "captured_at": "2026-10-25T16:24:20.809003+00:00",
+    "commence_time": "2026-10-26T01:00Z",
+    "event_id": "401909867",
+    "home": "Sacramento Kings",
+    "line": 234.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
   }
 ]
