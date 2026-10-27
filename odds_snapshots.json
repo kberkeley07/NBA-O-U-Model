@@ -1918,5 +1918,29 @@
     "offers": 9,
     "over_price": -110.0,
     "under_price": -110.0
+  },
+  {
+    "away": "Memphis Grizzlies",
+    "book": "FanDuel",
+    "captured_at": "2026-10-27T00:52:31.011915+00:00",
+    "commence_time": "2026-10-27T01:00Z",
+    "event_id": "401909875",
+    "home": "Utah Jazz",
+    "line": 237.5,
+    "offers": 9,
+    "over_price": -105.0,
+    "under_price": -115.0
+  },
+  {
+    "away": "Golden State Warriors",
+    "book": "DraftKings",
+    "captured_at": "2026-10-27T00:52:31.011915+00:00",
+    "commence_time": "2026-10-27T02:00Z",
+    "event_id": "401909876",
+    "home": "Denver Nuggets",
+    "line": 236.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
   }
 ]

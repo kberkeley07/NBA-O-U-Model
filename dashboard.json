@@ -8,34 +8,13 @@
       "home_score": null,
       "id": "401909868",
       "market": {
-        "book": "BetUS",
-        "line": 228.0,
-        "offers": 9,
-        "over_price": -110.0,
+        "book": "DraftKings",
+        "line": 200.5,
+        "offers": 6,
+        "over_price": -120.0,
         "under_price": -110.0
       },
-      "prediction": {
-        "away_games": 3,
-        "edge": -1.4,
-        "home_games": 3,
-        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
-        "original": {
-          "away_points": 115.69,
-          "edge": -3.54,
-          "home_points": 108.77,
-          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
-          "pace": 104.61,
-          "preview": true,
-          "preview_direction": null,
-          "total": 224.5,
-          "watch": null
-        },
-        "pace": 104.6,
-        "preview": true,
-        "preview_direction": null,
-        "total": 226.6,
-        "watch": null
-      },
+      "prediction": null,
       "status": "scheduled"
     },
     {
@@ -46,34 +25,13 @@
       "home_score": null,
       "id": "401909869",
       "market": {
-        "book": "MyBookie.ag",
-        "line": 232.0,
-        "offers": 9,
+        "book": "DraftKings",
+        "line": 221.5,
+        "offers": 6,
         "over_price": -110.0,
-        "under_price": -110.0
+        "under_price": -125.0
       },
-      "prediction": {
-        "away_games": 3,
-        "edge": -2.0,
-        "home_games": 2,
-        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
-        "original": {
-          "away_points": 118.89,
-          "edge": -6.39,
-          "home_points": 106.72,
-          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
-          "pace": 106.84,
-          "preview": true,
-          "preview_direction": "UNDER",
-          "total": 225.6,
-          "watch": null
-        },
-        "pace": 106.8,
-        "preview": true,
-        "preview_direction": null,
-        "total": 230.0,
-        "watch": null
-      },
+      "prediction": null,
       "status": "scheduled"
     },
     {
@@ -84,34 +42,13 @@
       "home_score": null,
       "id": "401909870",
       "market": {
-        "book": "BetUS",
-        "line": 233.0,
-        "offers": 9,
-        "over_price": -110.0,
-        "under_price": -110.0
+        "book": "DraftKings",
+        "line": 240.5,
+        "offers": 6,
+        "over_price": -115.0,
+        "under_price": -115.0
       },
-      "prediction": {
-        "away_games": 3,
-        "edge": -3.8,
-        "home_games": 2,
-        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
-        "original": {
-          "away_points": 112.86,
-          "edge": -1.0,
-          "home_points": 119.14,
-          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
-          "pace": 103.84,
-          "preview": true,
-          "preview_direction": null,
-          "total": 232.0,
-          "watch": null
-        },
-        "pace": 103.8,
-        "preview": true,
-        "preview_direction": null,
-        "total": 229.2,
-        "watch": null
-      },
+      "prediction": null,
       "status": "scheduled"
     },
     {
@@ -122,34 +59,13 @@
       "home_score": null,
       "id": "401909871",
       "market": {
-        "book": "BetUS",
-        "line": 241.0,
-        "offers": 9,
+        "book": "DraftKings",
+        "line": 221.0,
+        "offers": 6,
         "over_price": -110.0,
-        "under_price": -110.0
+        "under_price": -120.0
       },
-      "prediction": {
-        "away_games": 3,
-        "edge": -11.3,
-        "home_games": 3,
-        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
-        "original": {
-          "away_points": 118.28,
-          "edge": -9.38,
-          "home_points": 113.34,
-          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
-          "pace": 103.81,
-          "preview": true,
-          "preview_direction": "UNDER",
-          "total": 231.6,
-          "watch": null
-        },
-        "pace": 103.8,
-        "preview": true,
-        "preview_direction": "UNDER",
-        "total": 229.7,
-        "watch": null
-      },
+      "prediction": null,
       "status": "scheduled"
     },
     {
@@ -161,33 +77,12 @@
       "id": "401909872",
       "market": {
         "book": "FanDuel",
-        "line": 238.5,
-        "offers": 9,
-        "over_price": -110.0,
-        "under_price": -110.0
+        "line": 247.0,
+        "offers": 6,
+        "over_price": -136.0,
+        "under_price": 102.0
       },
-      "prediction": {
-        "away_games": 3,
-        "edge": 0.2,
-        "home_games": 3,
-        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
-        "original": {
-          "away_points": 124.11,
-          "edge": 4.21,
-          "home_points": 118.6,
-          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
-          "pace": 106.78,
-          "preview": true,
-          "preview_direction": null,
-          "total": 242.7,
-          "watch": null
-        },
-        "pace": 106.8,
-        "preview": true,
-        "preview_direction": null,
-        "total": 238.7,
-        "watch": null
-      },
+      "prediction": null,
       "status": "scheduled"
     },
     {
@@ -199,33 +94,12 @@
       "id": "401909873",
       "market": {
         "book": "FanDuel",
-        "line": 221.5,
-        "offers": 9,
-        "over_price": -110.0,
-        "under_price": -110.0
+        "line": 224.0,
+        "offers": 6,
+        "over_price": -132.0,
+        "under_price": 100.0
       },
-      "prediction": {
-        "away_games": 2,
-        "edge": -5.7,
-        "home_games": 3,
-        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
-        "original": {
-          "away_points": 101.31,
-          "edge": -7.42,
-          "home_points": 112.77,
-          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
-          "pace": 100.19,
-          "preview": true,
-          "preview_direction": "UNDER",
-          "total": 214.1,
-          "watch": null
-        },
-        "pace": 100.2,
-        "preview": true,
-        "preview_direction": "UNDER",
-        "total": 215.8,
-        "watch": null
-      },
+      "prediction": null,
       "status": "scheduled"
     },
     {
@@ -236,34 +110,13 @@
       "home_score": null,
       "id": "401909874",
       "market": {
-        "book": "DraftKings",
-        "line": 229.5,
+        "book": "Bovada",
+        "line": 236.5,
         "offers": 9,
-        "over_price": -112.0,
-        "under_price": -108.0
+        "over_price": -115.0,
+        "under_price": -115.0
       },
-      "prediction": {
-        "away_games": 3,
-        "edge": -1.2,
-        "home_games": 3,
-        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
-        "original": {
-          "away_points": 115.5,
-          "edge": 2.41,
-          "home_points": 116.41,
-          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
-          "pace": 102.25,
-          "preview": true,
-          "preview_direction": null,
-          "total": 231.9,
-          "watch": null
-        },
-        "pace": 102.3,
-        "preview": true,
-        "preview_direction": null,
-        "total": 228.3,
-        "watch": null
-      },
+      "prediction": null,
       "status": "scheduled"
     },
     {
@@ -277,8 +130,8 @@
         "book": "FanDuel",
         "line": 237.5,
         "offers": 9,
-        "over_price": -112.0,
-        "under_price": -108.0
+        "over_price": -105.0,
+        "under_price": -115.0
       },
       "prediction": {
         "away_games": 3,
@@ -471,7 +324,7 @@
       "status": "scheduled"
     }
   ],
-  "generated_at": "2026-10-26T18:42:13.460020+00:00",
+  "generated_at": "2026-10-27T00:52:31.011915+00:00",
   "notes": [
     "V1 exactly reproduces the original Excel arithmetic using 2026–27 derived pace/ratings; inputs are approximate, not the old workbook values.",
     "Historical Excel workbook reports 40–28, +8.1128u but does not prove predictions were frozen at tipoff.",
@@ -517,9 +370,9 @@
     "games_archived": 43,
     "injuries_integrated": false,
     "odds_configured": true,
-    "odds_credits_remaining": "484",
+    "odds_credits_remaining": "483",
     "odds_events_available": 14,
-    "odds_snapshots_saved": 160,
+    "odds_snapshots_saved": 162,
     "teams_ready": 0,
     "teams_with_stats": 30
   },
