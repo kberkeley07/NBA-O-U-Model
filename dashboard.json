@@ -1,228 +1,39 @@
 {
   "games": [
     {
-      "away": "Washington Wizards",
-      "away_score": null,
-      "date": "2026-10-26T23:00Z",
-      "home": "Charlotte Hornets",
-      "home_score": null,
-      "id": "401909868",
-      "market": {
-        "book": "DraftKings",
-        "line": 200.5,
-        "offers": 6,
-        "over_price": -120.0,
-        "under_price": -110.0
-      },
-      "prediction": null,
-      "status": "scheduled"
-    },
-    {
-      "away": "Minnesota Timberwolves",
-      "away_score": null,
-      "date": "2026-10-26T23:00Z",
-      "home": "Cleveland Cavaliers",
-      "home_score": null,
-      "id": "401909869",
-      "market": {
-        "book": "DraftKings",
-        "line": 221.5,
-        "offers": 6,
-        "over_price": -110.0,
-        "under_price": -125.0
-      },
-      "prediction": null,
-      "status": "scheduled"
-    },
-    {
-      "away": "Chicago Bulls",
-      "away_score": null,
-      "date": "2026-10-26T23:30Z",
-      "home": "Boston Celtics",
-      "home_score": null,
-      "id": "401909870",
-      "market": {
-        "book": "DraftKings",
-        "line": 240.5,
-        "offers": 6,
-        "over_price": -115.0,
-        "under_price": -115.0
-      },
-      "prediction": null,
-      "status": "scheduled"
-    },
-    {
-      "away": "Dallas Mavericks",
-      "away_score": null,
-      "date": "2026-10-26T23:30Z",
-      "home": "Miami Heat",
-      "home_score": null,
-      "id": "401909871",
-      "market": {
-        "book": "DraftKings",
-        "line": 221.0,
-        "offers": 6,
-        "over_price": -110.0,
-        "under_price": -120.0
-      },
-      "prediction": null,
-      "status": "scheduled"
-    },
-    {
-      "away": "Indiana Pacers",
-      "away_score": null,
-      "date": "2026-10-27T00:00Z",
-      "home": "Milwaukee Bucks",
-      "home_score": null,
-      "id": "401909872",
-      "market": {
-        "book": "FanDuel",
-        "line": 247.0,
-        "offers": 6,
-        "over_price": -136.0,
-        "under_price": 102.0
-      },
-      "prediction": null,
-      "status": "scheduled"
-    },
-    {
-      "away": "Phoenix Suns",
-      "away_score": null,
-      "date": "2026-10-27T00:00Z",
-      "home": "Oklahoma City Thunder",
-      "home_score": null,
-      "id": "401909873",
-      "market": {
-        "book": "FanDuel",
-        "line": 224.0,
-        "offers": 6,
-        "over_price": -132.0,
-        "under_price": 100.0
-      },
-      "prediction": null,
-      "status": "scheduled"
-    },
-    {
-      "away": "Atlanta Hawks",
-      "away_score": null,
-      "date": "2026-10-27T00:30Z",
-      "home": "Houston Rockets",
-      "home_score": null,
-      "id": "401909874",
-      "market": {
-        "book": "Bovada",
-        "line": 236.5,
-        "offers": 9,
-        "over_price": -115.0,
-        "under_price": -115.0
-      },
-      "prediction": null,
-      "status": "scheduled"
-    },
-    {
-      "away": "Memphis Grizzlies",
-      "away_score": null,
-      "date": "2026-10-27T01:00Z",
-      "home": "Utah Jazz",
-      "home_score": null,
-      "id": "401909875",
-      "market": {
-        "book": "FanDuel",
-        "line": 237.5,
-        "offers": 9,
-        "over_price": -105.0,
-        "under_price": -115.0
-      },
-      "prediction": {
-        "away_games": 3,
-        "edge": -7.8,
-        "home_games": 3,
-        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
-        "original": {
-          "away_points": 121.22,
-          "edge": -3.73,
-          "home_points": 112.54,
-          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
-          "pace": 102.63,
-          "preview": true,
-          "preview_direction": null,
-          "total": 233.8,
-          "watch": null
-        },
-        "pace": 102.6,
-        "preview": true,
-        "preview_direction": "UNDER",
-        "total": 229.7,
-        "watch": null
-      },
-      "status": "scheduled"
-    },
-    {
-      "away": "Golden State Warriors",
-      "away_score": null,
-      "date": "2026-10-27T02:00Z",
-      "home": "Denver Nuggets",
-      "home_score": null,
-      "id": "401909876",
-      "market": {
-        "book": "DraftKings",
-        "line": 236.5,
-        "offers": 9,
-        "over_price": -110.0,
-        "under_price": -110.0
-      },
-      "prediction": {
-        "away_games": 3,
-        "edge": -22.4,
-        "home_games": 1,
-        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
-        "original": {
-          "away_points": 102.43,
-          "edge": -31.58,
-          "home_points": 102.49,
-          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
-          "pace": 97.8,
-          "preview": true,
-          "preview_direction": "UNDER",
-          "total": 204.9,
-          "watch": null
-        },
-        "pace": 97.8,
-        "preview": true,
-        "preview_direction": "UNDER",
-        "total": 214.1,
-        "watch": null
-      },
-      "status": "scheduled"
-    },
-    {
       "away": "Brooklyn Nets",
       "away_score": null,
       "date": "2026-10-27T23:30Z",
       "home": "Boston Celtics",
       "home_score": null,
       "id": "401909877",
-      "market": null,
+      "market": {
+        "book": "FanDuel",
+        "line": 222.5,
+        "offers": 9,
+        "over_price": -114.0,
+        "under_price": -106.0
+      },
       "prediction": {
         "away_games": 3,
-        "edge": null,
-        "home_games": 2,
+        "edge": 6.7,
+        "home_games": 3,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
-          "away_points": 110.87,
-          "edge": null,
-          "home_points": 116.8,
+          "away_points": 109.38,
+          "edge": 7.74,
+          "home_points": 120.87,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
-          "pace": 101.52,
+          "pace": 103.87,
           "preview": true,
-          "preview_direction": null,
-          "total": 227.7,
+          "preview_direction": "OVER",
+          "total": 230.2,
           "watch": null
         },
-        "pace": 101.5,
+        "pace": 103.9,
         "preview": true,
-        "preview_direction": null,
-        "total": 224.6,
+        "preview_direction": "OVER",
+        "total": 229.2,
         "watch": null
       },
       "status": "scheduled"
@@ -234,15 +45,21 @@
       "home": "New York Knicks",
       "home_score": null,
       "id": "401909878",
-      "market": null,
+      "market": {
+        "book": "MyBookie.ag",
+        "line": 219.0,
+        "offers": 9,
+        "over_price": -110.0,
+        "under_price": -110.0
+      },
       "prediction": {
         "away_games": 3,
-        "edge": null,
+        "edge": 0.9,
         "home_games": 3,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 113.79,
-          "edge": null,
+          "edge": -2.02,
           "home_points": 103.19,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 101.76,
@@ -254,7 +71,7 @@
         "pace": 101.8,
         "preview": true,
         "preview_direction": null,
-        "total": 219.6,
+        "total": 219.9,
         "watch": null
       },
       "status": "scheduled"
@@ -266,15 +83,21 @@
       "home": "San Antonio Spurs",
       "home_score": null,
       "id": "401909879",
-      "market": null,
+      "market": {
+        "book": "FanDuel",
+        "line": 232.5,
+        "offers": 9,
+        "over_price": -106.0,
+        "under_price": -114.0
+      },
       "prediction": {
         "away_games": 3,
-        "edge": null,
+        "edge": -1.4,
         "home_games": 3,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 112.69,
-          "edge": null,
+          "edge": -0.66,
           "home_points": 119.14,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 104.88,
@@ -286,7 +109,7 @@
         "pace": 104.9,
         "preview": true,
         "preview_direction": null,
-        "total": 230.9,
+        "total": 231.1,
         "watch": null
       },
       "status": "scheduled"
@@ -298,15 +121,21 @@
       "home": "Los Angeles Lakers",
       "home_score": null,
       "id": "401909880",
-      "market": null,
+      "market": {
+        "book": "BetOnline.ag",
+        "line": 233.5,
+        "offers": 9,
+        "over_price": -110.0,
+        "under_price": -110.0
+      },
       "prediction": {
         "away_games": 2,
-        "edge": null,
+        "edge": -2.5,
         "home_games": 3,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 118.96,
-          "edge": null,
+          "edge": 1.25,
           "home_points": 115.79,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 103.3,
@@ -318,13 +147,403 @@
         "pace": 103.3,
         "preview": true,
         "preview_direction": null,
-        "total": 230.8,
+        "total": 231.0,
+        "watch": null
+      },
+      "status": "scheduled"
+    },
+    {
+      "away": "Miami Heat",
+      "away_score": null,
+      "date": "2026-10-28T23:00Z",
+      "home": "Atlanta Hawks",
+      "home_score": null,
+      "id": "401909881",
+      "market": null,
+      "prediction": {
+        "away_games": 4,
+        "edge": null,
+        "home_games": 4,
+        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
+        "original": {
+          "away_points": 111.63,
+          "edge": null,
+          "home_points": 121.81,
+          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
+          "pace": 106.09,
+          "preview": true,
+          "preview_direction": null,
+          "total": 233.4,
+          "watch": null
+        },
+        "pace": 106.1,
+        "preview": true,
+        "preview_direction": null,
+        "total": 233.2,
+        "watch": null
+      },
+      "status": "scheduled"
+    },
+    {
+      "away": "Washington Wizards",
+      "away_score": null,
+      "date": "2026-10-28T23:00Z",
+      "home": "Cleveland Cavaliers",
+      "home_score": null,
+      "id": "401909882",
+      "market": null,
+      "prediction": {
+        "away_games": 4,
+        "edge": null,
+        "home_games": 2,
+        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
+        "original": {
+          "away_points": 115.4,
+          "edge": null,
+          "home_points": 114.99,
+          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
+          "pace": 106.93,
+          "preview": true,
+          "preview_direction": null,
+          "total": 230.4,
+          "watch": null
+        },
+        "pace": 106.9,
+        "preview": true,
+        "preview_direction": null,
+        "total": 233.1,
+        "watch": null
+      },
+      "status": "scheduled"
+    },
+    {
+      "away": "Charlotte Hornets",
+      "away_score": null,
+      "date": "2026-10-28T23:00Z",
+      "home": "Detroit Pistons",
+      "home_score": null,
+      "id": "401909883",
+      "market": null,
+      "prediction": {
+        "away_games": 4,
+        "edge": null,
+        "home_games": 3,
+        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
+        "original": {
+          "away_points": 104.36,
+          "edge": null,
+          "home_points": 114.52,
+          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
+          "pace": 101.4,
+          "preview": true,
+          "preview_direction": null,
+          "total": 218.9,
+          "watch": null
+        },
+        "pace": 101.4,
+        "preview": true,
+        "preview_direction": null,
+        "total": 220.1,
+        "watch": null
+      },
+      "status": "scheduled"
+    },
+    {
+      "away": "Philadelphia 76ers",
+      "away_score": null,
+      "date": "2026-10-28T23:00Z",
+      "home": "Indiana Pacers",
+      "home_score": null,
+      "id": "401909884",
+      "market": {
+        "book": "DraftKings",
+        "line": 239.5,
+        "offers": 3,
+        "over_price": -112.0,
+        "under_price": -108.0
+      },
+      "prediction": {
+        "away_games": 4,
+        "edge": -10.5,
+        "home_games": 4,
+        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
+        "original": {
+          "away_points": 113.64,
+          "edge": -12.83,
+          "home_points": 113.03,
+          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
+          "pace": 106.48,
+          "preview": true,
+          "preview_direction": "UNDER",
+          "total": 226.7,
+          "watch": null
+        },
+        "pace": 106.5,
+        "preview": true,
+        "preview_direction": "UNDER",
+        "total": 229.0,
+        "watch": null
+      },
+      "status": "scheduled"
+    },
+    {
+      "away": "Orlando Magic",
+      "away_score": null,
+      "date": "2026-10-28T23:30Z",
+      "home": "Toronto Raptors",
+      "home_score": null,
+      "id": "401909885",
+      "market": null,
+      "prediction": {
+        "away_games": 3,
+        "edge": null,
+        "home_games": 3,
+        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
+        "original": {
+          "away_points": 106.64,
+          "edge": null,
+          "home_points": 114.49,
+          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
+          "pace": 106.25,
+          "preview": true,
+          "preview_direction": null,
+          "total": 221.1,
+          "watch": null
+        },
+        "pace": 106.2,
+        "preview": true,
+        "preview_direction": null,
+        "total": 226.6,
+        "watch": null
+      },
+      "status": "scheduled"
+    },
+    {
+      "away": "New York Knicks",
+      "away_score": null,
+      "date": "2026-10-29T00:00Z",
+      "home": "Chicago Bulls",
+      "home_score": null,
+      "id": "401909886",
+      "market": null,
+      "prediction": {
+        "away_games": 3,
+        "edge": null,
+        "home_games": 4,
+        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
+        "original": {
+          "away_points": 114.92,
+          "edge": null,
+          "home_points": 110.16,
+          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
+          "pace": 105.87,
+          "preview": true,
+          "preview_direction": null,
+          "total": 225.1,
+          "watch": null
+        },
+        "pace": 105.9,
+        "preview": true,
+        "preview_direction": null,
+        "total": 228.3,
+        "watch": null
+      },
+      "status": "scheduled"
+    },
+    {
+      "away": "Houston Rockets",
+      "away_score": null,
+      "date": "2026-10-29T00:00Z",
+      "home": "Milwaukee Bucks",
+      "home_score": null,
+      "id": "401909887",
+      "market": null,
+      "prediction": {
+        "away_games": 4,
+        "edge": null,
+        "home_games": 4,
+        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
+        "original": {
+          "away_points": 120.33,
+          "edge": null,
+          "home_points": 111.67,
+          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
+          "pace": 102.75,
+          "preview": true,
+          "preview_direction": null,
+          "total": 232.0,
+          "watch": null
+        },
+        "pace": 102.7,
+        "preview": true,
+        "preview_direction": null,
+        "total": 229.8,
+        "watch": null
+      },
+      "status": "scheduled"
+    },
+    {
+      "away": "Golden State Warriors",
+      "away_score": null,
+      "date": "2026-10-29T00:00Z",
+      "home": "Minnesota Timberwolves",
+      "home_score": null,
+      "id": "401909888",
+      "market": null,
+      "prediction": {
+        "away_games": 4,
+        "edge": null,
+        "home_games": 3,
+        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
+        "original": {
+          "away_points": 107.95,
+          "edge": null,
+          "home_points": 121.0,
+          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
+          "pace": 101.94,
+          "preview": true,
+          "preview_direction": null,
+          "total": 228.9,
+          "watch": null
+        },
+        "pace": 101.9,
+        "preview": true,
+        "preview_direction": null,
+        "total": 227.7,
+        "watch": null
+      },
+      "status": "scheduled"
+    },
+    {
+      "away": "Denver Nuggets",
+      "away_score": null,
+      "date": "2026-10-29T00:00Z",
+      "home": "New Orleans Pelicans",
+      "home_score": null,
+      "id": "401909889",
+      "market": null,
+      "prediction": {
+        "away_games": 2,
+        "edge": null,
+        "home_games": 2,
+        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
+        "original": {
+          "away_points": 110.2,
+          "edge": null,
+          "home_points": 115.7,
+          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
+          "pace": 99.99,
+          "preview": true,
+          "preview_direction": null,
+          "total": 225.9,
+          "watch": null
+        },
+        "pace": 100.0,
+        "preview": true,
+        "preview_direction": null,
+        "total": 222.0,
+        "watch": null
+      },
+      "status": "scheduled"
+    },
+    {
+      "away": "San Antonio Spurs",
+      "away_score": null,
+      "date": "2026-10-29T01:00Z",
+      "home": "Utah Jazz",
+      "home_score": null,
+      "id": "401909890",
+      "market": null,
+      "prediction": {
+        "away_games": 3,
+        "edge": null,
+        "home_games": 4,
+        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
+        "original": {
+          "away_points": 116.33,
+          "edge": null,
+          "home_points": 114.41,
+          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
+          "pace": 104.04,
+          "preview": true,
+          "preview_direction": null,
+          "total": 230.7,
+          "watch": null
+        },
+        "pace": 104.0,
+        "preview": true,
+        "preview_direction": null,
+        "total": 230.1,
+        "watch": null
+      },
+      "status": "scheduled"
+    },
+    {
+      "away": "Oklahoma City Thunder",
+      "away_score": null,
+      "date": "2026-10-29T01:30Z",
+      "home": "Dallas Mavericks",
+      "home_score": null,
+      "id": "401909891",
+      "market": null,
+      "prediction": {
+        "away_games": 4,
+        "edge": null,
+        "home_games": 4,
+        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
+        "original": {
+          "away_points": 112.77,
+          "edge": null,
+          "home_points": 106.6,
+          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
+          "pace": 102.06,
+          "preview": true,
+          "preview_direction": null,
+          "total": 219.4,
+          "watch": null
+        },
+        "pace": 102.1,
+        "preview": true,
+        "preview_direction": null,
+        "total": 220.9,
+        "watch": null
+      },
+      "status": "scheduled"
+    },
+    {
+      "away": "Los Angeles Lakers",
+      "away_score": null,
+      "date": "2026-10-29T02:30Z",
+      "home": "Los Angeles Clippers",
+      "home_score": null,
+      "id": "401909892",
+      "market": null,
+      "prediction": {
+        "away_games": 3,
+        "edge": null,
+        "home_games": 3,
+        "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
+        "original": {
+          "away_points": 120.09,
+          "edge": null,
+          "home_points": 112.52,
+          "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
+          "pace": 103.81,
+          "preview": true,
+          "preview_direction": null,
+          "total": 232.6,
+          "watch": null
+        },
+        "pace": 103.8,
+        "preview": true,
+        "preview_direction": null,
+        "total": 230.4,
         "watch": null
       },
       "status": "scheduled"
     }
   ],
-  "generated_at": "2026-10-27T00:52:31.011915+00:00",
+  "generated_at": "2026-10-27T18:02:24.837268+00:00",
   "notes": [
     "V1 exactly reproduces the original Excel arithmetic using 2026–27 derived pace/ratings; inputs are approximate, not the old workbook values.",
     "Historical Excel workbook reports 40–28, +8.1128u but does not prove predictions were frozen at tipoff.",
@@ -367,29 +586,29 @@
     "watch_edge": 5.5
   },
   "source_status": {
-    "games_archived": 43,
+    "games_archived": 52,
     "injuries_integrated": false,
     "odds_configured": true,
-    "odds_credits_remaining": "483",
-    "odds_events_available": 14,
-    "odds_snapshots_saved": 162,
+    "odds_credits_remaining": "482",
+    "odds_events_available": 9,
+    "odds_snapshots_saved": 167,
     "teams_ready": 0,
     "teams_with_stats": 30
   },
   "teams": [
     {
-      "drtg": 104.96,
-      "games": 3,
-      "ortg": 117.7,
-      "pace": 105.92,
+      "drtg": 107.54,
+      "games": 4,
+      "ortg": 113.88,
+      "pace": 106.25,
       "ready": false,
       "team": "Atlanta Hawks"
     },
     {
-      "drtg": 114.1,
-      "games": 2,
-      "ortg": 113.82,
-      "pace": 96.64,
+      "drtg": 106.26,
+      "games": 3,
+      "ortg": 116.43,
+      "pace": 101.35,
       "ready": false,
       "team": "Boston Celtics"
     },
@@ -402,18 +621,18 @@
       "team": "Brooklyn Nets"
     },
     {
-      "drtg": 110.47,
-      "games": 3,
-      "ortg": 99.39,
-      "pace": 102.63,
+      "drtg": 109.82,
+      "games": 4,
+      "ortg": 103.13,
+      "pace": 100.84,
       "ready": false,
       "team": "Charlotte Hornets"
     },
     {
-      "drtg": 115.66,
-      "games": 3,
-      "ortg": 103.28,
-      "pace": 111.03,
+      "drtg": 116.99,
+      "games": 4,
+      "ortg": 100.52,
+      "pace": 110.18,
       "ready": false,
       "team": "Chicago Bulls"
     },
@@ -426,18 +645,18 @@
       "team": "Cleveland Cavaliers"
     },
     {
-      "drtg": 115.13,
-      "games": 3,
-      "ortg": 110.1,
-      "pace": 102.03,
+      "drtg": 111.71,
+      "games": 4,
+      "ortg": 109.96,
+      "pace": 102.31,
       "ready": false,
       "team": "Dallas Mavericks"
     },
     {
-      "drtg": 98.81,
-      "games": 1,
-      "ortg": 88.72,
-      "pace": 94.68,
+      "drtg": 117.71,
+      "games": 2,
+      "ortg": 104.32,
+      "pace": 94.9,
       "ready": false,
       "team": "Denver Nuggets"
     },
@@ -450,26 +669,26 @@
       "team": "Detroit Pistons"
     },
     {
-      "drtg": 120.89,
-      "games": 3,
-      "ortg": 110.66,
-      "pace": 100.91,
+      "drtg": 120.64,
+      "games": 4,
+      "ortg": 116.97,
+      "pace": 100.24,
       "ready": false,
       "team": "Golden State Warriors"
     },
     {
-      "drtg": 108.2,
-      "games": 3,
-      "ortg": 122.73,
-      "pace": 98.59,
+      "drtg": 106.75,
+      "games": 4,
+      "ortg": 120.8,
+      "pace": 99.96,
       "ready": false,
       "team": "Houston Rockets"
     },
     {
-      "drtg": 111.58,
-      "games": 3,
-      "ortg": 114.55,
-      "pace": 105.92,
+      "drtg": 111.4,
+      "games": 4,
+      "ortg": 110.77,
+      "pace": 105.17,
       "ready": false,
       "team": "Indiana Pacers"
     },
@@ -490,26 +709,26 @@
       "team": "Los Angeles Lakers"
     },
     {
-      "drtg": 107.32,
-      "games": 3,
-      "ortg": 116.33,
-      "pace": 102.29,
+      "drtg": 106.21,
+      "games": 4,
+      "ortg": 114.58,
+      "pace": 101.89,
       "ready": false,
       "team": "Memphis Grizzlies"
     },
     {
-      "drtg": 117.77,
-      "games": 3,
-      "ortg": 103.23,
-      "pace": 105.59,
+      "drtg": 115.75,
+      "games": 4,
+      "ortg": 102.89,
+      "pace": 105.94,
       "ready": false,
       "team": "Miami Heat"
     },
     {
-      "drtg": 117.92,
-      "games": 3,
-      "ortg": 110.57,
-      "pace": 107.63,
+      "drtg": 113.43,
+      "games": 4,
+      "ortg": 110.63,
+      "pace": 105.53,
       "ready": false,
       "team": "Milwaukee Bucks"
     },
@@ -538,10 +757,10 @@
       "team": "New York Knicks"
     },
     {
-      "drtg": 94.05,
-      "games": 3,
-      "ortg": 105.11,
-      "pace": 101.48,
+      "drtg": 98.95,
+      "games": 4,
+      "ortg": 109.28,
+      "pace": 101.8,
       "ready": false,
       "team": "Oklahoma City Thunder"
     },
@@ -562,10 +781,10 @@
       "team": "Philadelphia 76ers"
     },
     {
-      "drtg": 120.0,
-      "games": 2,
-      "ortg": 108.19,
-      "pace": 98.9,
+      "drtg": 120.55,
+      "games": 3,
+      "ortg": 110.14,
+      "pace": 99.27,
       "ready": false,
       "team": "Phoenix Suns"
     },
@@ -602,18 +821,18 @@
       "team": "Toronto Raptors"
     },
     {
-      "drtg": 119.9,
-      "games": 3,
-      "ortg": 112.0,
-      "pace": 102.97,
+      "drtg": 117.3,
+      "games": 4,
+      "ortg": 109.75,
+      "pace": 102.73,
       "ready": false,
       "team": "Utah Jazz"
     },
     {
-      "drtg": 108.56,
-      "games": 3,
-      "ortg": 110.71,
-      "pace": 106.59,
+      "drtg": 110.09,
+      "games": 4,
+      "ortg": 110.03,
+      "pace": 103.84,
       "ready": false,
       "team": "Washington Wizards"
     }
