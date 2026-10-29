@@ -2302,5 +2302,53 @@
     "offers": 9,
     "over_price": -108.0,
     "under_price": -112.0
+  },
+  {
+    "away": "Oklahoma City Thunder",
+    "book": "DraftKings",
+    "captured_at": "2026-10-29T01:16:26.382212+00:00",
+    "commence_time": "2026-10-29T01:30Z",
+    "event_id": "401909891",
+    "home": "Dallas Mavericks",
+    "line": 228.5,
+    "offers": 9,
+    "over_price": -105.0,
+    "under_price": -115.0
+  },
+  {
+    "away": "Los Angeles Lakers",
+    "book": "FanDuel",
+    "captured_at": "2026-10-29T01:16:26.382212+00:00",
+    "commence_time": "2026-10-29T02:30Z",
+    "event_id": "401909892",
+    "home": "Los Angeles Clippers",
+    "line": 224.5,
+    "offers": 9,
+    "over_price": -108.0,
+    "under_price": -112.0
+  },
+  {
+    "away": "Sacramento Kings",
+    "book": "FanDuel",
+    "captured_at": "2026-10-29T01:16:26.382212+00:00",
+    "commence_time": "2026-10-30T00:00Z",
+    "event_id": "401909894",
+    "home": "New Orleans Pelicans",
+    "line": 238.5,
+    "offers": 6,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Memphis Grizzlies",
+    "book": "FanDuel",
+    "captured_at": "2026-10-29T01:16:26.382212+00:00",
+    "commence_time": "2026-10-30T02:00Z",
+    "event_id": "401909895",
+    "home": "Portland Trail Blazers",
+    "line": 234.5,
+    "offers": 6,
+    "over_price": -110.0,
+    "under_price": -110.0
   }
 ]
