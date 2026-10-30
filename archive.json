@@ -1766,5 +1766,83 @@
     "id": "401909892",
     "period": 4,
     "status": "final"
+  },
+  "401909893": {
+    "away": "Cleveland Cavaliers",
+    "away_box": {
+      "fga": 87.0,
+      "fta": 29.0,
+      "orb": 9.0,
+      "poss": 99.76,
+      "tov": 9.0
+    },
+    "away_score": 111.0,
+    "away_team_id": "5",
+    "date": "2026-10-30T00:00Z",
+    "home": "Atlanta Hawks",
+    "home_box": {
+      "fga": 95.0,
+      "fta": 18.0,
+      "orb": 15.0,
+      "poss": 98.92,
+      "tov": 11.0
+    },
+    "home_score": 114.0,
+    "home_team_id": "1",
+    "id": "401909893",
+    "period": 4,
+    "status": "final"
+  },
+  "401909894": {
+    "away": "Sacramento Kings",
+    "away_box": {
+      "fga": 88.0,
+      "fta": 20.0,
+      "orb": 7.0,
+      "poss": 114.8,
+      "tov": 25.0
+    },
+    "away_score": 120.0,
+    "away_team_id": "23",
+    "date": "2026-10-30T00:00Z",
+    "home": "New Orleans Pelicans",
+    "home_box": {
+      "fga": 85.0,
+      "fta": 32.0,
+      "orb": 5.0,
+      "poss": 114.08,
+      "tov": 20.0
+    },
+    "home_score": 132.0,
+    "home_team_id": "3",
+    "id": "401909894",
+    "period": 4,
+    "status": "final"
+  },
+  "401909895": {
+    "away": "Memphis Grizzlies",
+    "away_box": {
+      "fga": 102.0,
+      "fta": 12.0,
+      "orb": 15.0,
+      "poss": 102.28,
+      "tov": 10.0
+    },
+    "away_score": 124.0,
+    "away_team_id": "29",
+    "date": "2026-10-30T02:00Z",
+    "home": "Portland Trail Blazers",
+    "home_box": {
+      "fga": 91.0,
+      "fta": 26.0,
+      "orb": 13.0,
+      "poss": 105.44,
+      "tov": 16.0
+    },
+    "home_score": 103.0,
+    "home_team_id": "22",
+    "id": "401909895",
+    "period": 4,
+    "status": "final"
   }
 }
