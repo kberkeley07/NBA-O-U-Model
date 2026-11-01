@@ -2104,5 +2104,31 @@
     "id": "401909895",
     "period": 4,
     "status": "final"
+  },
+  "401909896": {
+    "away": "Portland Trail Blazers",
+    "away_box": {
+      "fga": 76.0,
+      "fta": 41.0,
+      "orb": 9.0,
+      "poss": 102.04,
+      "tov": 17.0
+    },
+    "away_score": 112.0,
+    "away_team_id": "22",
+    "date": "2026-10-31T19:00Z",
+    "home": "Utah Jazz",
+    "home_box": {
+      "fga": 78.0,
+      "fta": 26.0,
+      "orb": 7.0,
+      "poss": 101.44,
+      "tov": 19.0
+    },
+    "home_score": 90.0,
+    "home_team_id": "26",
+    "id": "401909896",
+    "period": 4,
+    "status": "final"
   }
 }

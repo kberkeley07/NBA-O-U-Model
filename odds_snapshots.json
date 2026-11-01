@@ -2926,5 +2926,17 @@
     "offers": 9,
     "over_price": -115.0,
     "under_price": -105.0
+  },
+  {
+    "away": "Oklahoma City Thunder",
+    "book": "FanDuel",
+    "captured_at": "2026-11-01T00:26:46.112945+00:00",
+    "commence_time": "2026-11-01T00:30Z",
+    "event_id": "401909902",
+    "home": "Houston Rockets",
+    "line": 219.5,
+    "offers": 9,
+    "over_price": -105.0,
+    "under_price": -115.0
   }
 ]
