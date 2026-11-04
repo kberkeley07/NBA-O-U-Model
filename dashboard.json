@@ -8,9 +8,9 @@
       "home_score": null,
       "id": "401909922",
       "market": {
-        "book": "DraftKings",
+        "book": "FanDuel",
         "line": 217.5,
-        "offers": 6,
+        "offers": 9,
         "over_price": -110.0,
         "under_price": -110.0
       },
@@ -45,26 +45,32 @@
       "home": "Washington Wizards",
       "home_score": null,
       "id": "401909923",
-      "market": null,
+      "market": {
+        "book": "FanDuel",
+        "line": 232.5,
+        "offers": 8,
+        "over_price": -115.0,
+        "under_price": -105.0
+      },
       "prediction": {
         "away_games": 8,
-        "edge": null,
+        "edge": -9.4,
         "home_games": 7,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 110.36,
-          "edge": null,
+          "edge": -9.55,
           "home_points": 112.59,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 102.38,
           "preview": true,
-          "preview_direction": null,
+          "preview_direction": "UNDER",
           "total": 222.9,
           "watch": null
         },
         "pace": 102.4,
         "preview": true,
-        "preview_direction": null,
+        "preview_direction": "UNDER",
         "total": 223.1,
         "watch": null
       },
@@ -77,15 +83,21 @@
       "home": "Boston Celtics",
       "home_score": null,
       "id": "401909924",
-      "market": null,
+      "market": {
+        "book": "DraftKings",
+        "line": 223.5,
+        "offers": 5,
+        "over_price": -110.0,
+        "under_price": -110.0
+      },
       "prediction": {
         "away_games": 7,
-        "edge": null,
+        "edge": 4.1,
         "home_games": 6,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 109.41,
-          "edge": null,
+          "edge": 4.37,
           "home_points": 118.46,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 101.96,
@@ -111,19 +123,19 @@
       "id": "401909925",
       "market": {
         "book": "FanDuel",
-        "line": 214.5,
-        "offers": 6,
-        "over_price": -106.0,
-        "under_price": -114.0
+        "line": 213.5,
+        "offers": 8,
+        "over_price": -108.0,
+        "under_price": -112.0
       },
       "prediction": {
         "away_games": 8,
-        "edge": -2.7,
+        "edge": -1.7,
         "home_games": 6,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 104.85,
-          "edge": -3.31,
+          "edge": -2.31,
           "home_points": 106.34,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 99.57,
@@ -147,26 +159,32 @@
       "home": "New York Knicks",
       "home_score": null,
       "id": "401909926",
-      "market": null,
+      "market": {
+        "book": "LowVig.ag",
+        "line": 234.0,
+        "offers": 9,
+        "over_price": -107.0,
+        "under_price": -107.0
+      },
       "prediction": {
         "away_games": 7,
-        "edge": null,
+        "edge": -7.0,
         "home_games": 7,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 109.76,
-          "edge": null,
+          "edge": -7.14,
           "home_points": 117.1,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 103.88,
           "preview": true,
-          "preview_direction": null,
+          "preview_direction": "UNDER",
           "total": 226.9,
           "watch": null
         },
         "pace": 103.9,
         "preview": true,
-        "preview_direction": null,
+        "preview_direction": "UNDER",
         "total": 227.0,
         "watch": null
       },
@@ -179,15 +197,21 @@
       "home": "Memphis Grizzlies",
       "home_score": null,
       "id": "401909927",
-      "market": null,
+      "market": {
+        "book": "FanDuel",
+        "line": 230.5,
+        "offers": 9,
+        "over_price": -110.0,
+        "under_price": -110.0
+      },
       "prediction": {
         "away_games": 8,
-        "edge": null,
+        "edge": -3.1,
         "home_games": 6,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 109.27,
-          "edge": null,
+          "edge": -3.02,
           "home_points": 118.21,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 102.62,
@@ -211,26 +235,32 @@
       "home": "New Orleans Pelicans",
       "home_score": null,
       "id": "401909928",
-      "market": null,
+      "market": {
+        "book": "FanDuel",
+        "line": 235.5,
+        "offers": 9,
+        "over_price": -110.0,
+        "under_price": -110.0
+      },
       "prediction": {
         "away_games": 6,
-        "edge": null,
+        "edge": -8.0,
         "home_games": 5,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 109.82,
-          "edge": null,
+          "edge": -8.68,
           "home_points": 117.0,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 104.14,
           "preview": true,
-          "preview_direction": null,
+          "preview_direction": "UNDER",
           "total": 226.8,
           "watch": null
         },
         "pace": 104.1,
         "preview": true,
-        "preview_direction": null,
+        "preview_direction": "UNDER",
         "total": 227.5,
         "watch": null
       },
@@ -244,20 +274,20 @@
       "home_score": null,
       "id": "401909929",
       "market": {
-        "book": "DraftKings",
-        "line": 228.5,
-        "offers": 6,
-        "over_price": -110.0,
-        "under_price": -110.0
+        "book": "FanDuel",
+        "line": 227.5,
+        "offers": 9,
+        "over_price": -112.0,
+        "under_price": -108.0
       },
       "prediction": {
         "away_games": 6,
-        "edge": -4.4,
+        "edge": -3.4,
         "home_games": 7,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 113.25,
-          "edge": -4.27,
+          "edge": -3.27,
           "home_points": 110.99,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 101.74,
@@ -282,9 +312,9 @@
       "home_score": null,
       "id": "401909930",
       "market": {
-        "book": "DraftKings",
+        "book": "FanDuel",
         "line": 220.5,
-        "offers": 6,
+        "offers": 9,
         "over_price": -110.0,
         "under_price": -110.0
       },
@@ -319,26 +349,32 @@
       "home": "Denver Nuggets",
       "home_score": null,
       "id": "401909931",
-      "market": null,
+      "market": {
+        "book": "LowVig.ag",
+        "line": 231.5,
+        "offers": 8,
+        "over_price": -107.0,
+        "under_price": -107.0
+      },
       "prediction": {
         "away_games": 7,
-        "edge": null,
+        "edge": -7.3,
         "home_games": 5,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 114.46,
-          "edge": null,
+          "edge": -6.91,
           "home_points": 110.13,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 101.0,
           "preview": true,
-          "preview_direction": null,
+          "preview_direction": "UNDER",
           "total": 224.6,
           "watch": null
         },
         "pace": 101.0,
         "preview": true,
-        "preview_direction": null,
+        "preview_direction": "UNDER",
         "total": 224.2,
         "watch": null
       },
@@ -351,15 +387,21 @@
       "home": "Phoenix Suns",
       "home_score": null,
       "id": "401909932",
-      "market": null,
+      "market": {
+        "book": "BetOnline.ag",
+        "line": 228.0,
+        "offers": 7,
+        "over_price": -107.0,
+        "under_price": -113.0
+      },
       "prediction": {
         "away_games": 6,
-        "edge": null,
+        "edge": 2.6,
         "home_games": 5,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 120.61,
-          "edge": null,
+          "edge": 4.27,
           "home_points": 111.66,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 101.33,
@@ -384,20 +426,20 @@
       "home_score": null,
       "id": "401909933",
       "market": {
-        "book": "FanDuel",
-        "line": 229.5,
-        "offers": 6,
-        "over_price": -106.0,
-        "under_price": -114.0
+        "book": "MyBookie.ag",
+        "line": 227.0,
+        "offers": 8,
+        "over_price": -110.0,
+        "under_price": -110.0
       },
       "prediction": {
         "away_games": 7,
-        "edge": -3.5,
+        "edge": -1.0,
         "home_games": 6,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 111.56,
-          "edge": -3.56,
+          "edge": -1.06,
           "home_points": 114.37,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 102.4,
@@ -421,15 +463,21 @@
       "home": "Sacramento Kings",
       "home_score": null,
       "id": "401909934",
-      "market": null,
+      "market": {
+        "book": "DraftKings",
+        "line": 237.5,
+        "offers": 7,
+        "over_price": -110.0,
+        "under_price": -110.0
+      },
       "prediction": {
         "away_games": 8,
-        "edge": null,
+        "edge": -2.6,
         "home_games": 7,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 123.03,
-          "edge": null,
+          "edge": -2.45,
           "home_points": 112.02,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 102.84,
@@ -453,15 +501,21 @@
       "home": "Los Angeles Clippers",
       "home_score": null,
       "id": "401909935",
-      "market": null,
+      "market": {
+        "book": "FanDuel",
+        "line": 233.5,
+        "offers": 8,
+        "over_price": -110.0,
+        "under_price": -110.0
+      },
       "prediction": {
         "away_games": 7,
-        "edge": null,
+        "edge": 0.5,
         "home_games": 7,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 118.17,
-          "edge": null,
+          "edge": 0.76,
           "home_points": 116.09,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 104.17,
@@ -479,7 +533,7 @@
       "status": "scheduled"
     }
   ],
-  "generated_at": "2026-11-03T19:30:08.697831+00:00",
+  "generated_at": "2026-11-04T01:41:30.006174+00:00",
   "notes": [
     "V1 exactly reproduces the original Excel arithmetic using 2026–27 derived pace/ratings; inputs are approximate, not the old workbook values.",
     "Historical Excel workbook reports 40–28, +8.1128u but does not prove predictions were frozen at tipoff.",
@@ -525,9 +579,9 @@
     "games_archived": 107,
     "injuries_integrated": false,
     "odds_configured": true,
-    "odds_credits_remaining": "494",
-    "odds_events_available": 9,
-    "odds_snapshots_saved": 281,
+    "odds_credits_remaining": "493",
+    "odds_events_available": 18,
+    "odds_snapshots_saved": 295,
     "teams_ready": 0,
     "teams_with_stats": 30
   },
