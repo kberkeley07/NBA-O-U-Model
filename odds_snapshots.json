@@ -3766,5 +3766,29 @@
     "offers": 9,
     "over_price": -105.0,
     "under_price": -115.0
+  },
+  {
+    "away": "Orlando Magic",
+    "book": "FanDuel",
+    "captured_at": "2026-11-05T19:58:56.309166+00:00",
+    "commence_time": "2026-11-06T02:00Z",
+    "event_id": "401909936",
+    "home": "Phoenix Suns",
+    "line": 221.5,
+    "offers": 9,
+    "over_price": -114.0,
+    "under_price": -106.0
+  },
+  {
+    "away": "Miami Heat",
+    "book": "BetOnline.ag",
+    "captured_at": "2026-11-05T19:58:56.309166+00:00",
+    "commence_time": "2026-11-06T03:00Z",
+    "event_id": "401909937",
+    "home": "Golden State Warriors",
+    "line": 233.0,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
   }
 ]
