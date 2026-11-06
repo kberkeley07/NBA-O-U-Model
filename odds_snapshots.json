@@ -3898,5 +3898,113 @@
     "offers": 6,
     "over_price": -110.0,
     "under_price": -110.0
+  },
+  {
+    "away": "Washington Wizards",
+    "book": "FanDuel",
+    "captured_at": "2026-11-06T19:26:27.363111+00:00",
+    "commence_time": "2026-11-07T00:00Z",
+    "event_id": "401909287",
+    "home": "Atlanta Hawks",
+    "line": 228.5,
+    "offers": 9,
+    "over_price": -112.0,
+    "under_price": -108.0
+  },
+  {
+    "away": "Boston Celtics",
+    "book": "MyBookie.ag",
+    "captured_at": "2026-11-06T19:26:27.363111+00:00",
+    "commence_time": "2026-11-07T00:00Z",
+    "event_id": "401909288",
+    "home": "Charlotte Hornets",
+    "line": 208.0,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Philadelphia 76ers",
+    "book": "DraftKings",
+    "captured_at": "2026-11-06T19:26:27.363111+00:00",
+    "commence_time": "2026-11-07T00:30Z",
+    "event_id": "401909289",
+    "home": "Cleveland Cavaliers",
+    "line": 231.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Utah Jazz",
+    "book": "DraftKings",
+    "captured_at": "2026-11-06T19:26:27.363111+00:00",
+    "commence_time": "2026-11-07T01:00Z",
+    "event_id": "401909290",
+    "home": "Dallas Mavericks",
+    "line": 225.5,
+    "offers": 9,
+    "over_price": -113.0,
+    "under_price": -107.0
+  },
+  {
+    "away": "Oklahoma City Thunder",
+    "book": "FanDuel",
+    "captured_at": "2026-11-06T19:26:27.363111+00:00",
+    "commence_time": "2026-11-07T01:00Z",
+    "event_id": "401909291",
+    "home": "Memphis Grizzlies",
+    "line": 223.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Toronto Raptors",
+    "book": "LowVig.ag",
+    "captured_at": "2026-11-06T19:26:27.363111+00:00",
+    "commence_time": "2026-11-07T01:00Z",
+    "event_id": "401909292",
+    "home": "Milwaukee Bucks",
+    "line": 229.0,
+    "offers": 9,
+    "over_price": -107.0,
+    "under_price": -107.0
+  },
+  {
+    "away": "Minnesota Timberwolves",
+    "book": "DraftKings",
+    "captured_at": "2026-11-06T19:26:27.363111+00:00",
+    "commence_time": "2026-11-07T01:00Z",
+    "event_id": "401909293",
+    "home": "New Orleans Pelicans",
+    "line": 230.5,
+    "offers": 9,
+    "over_price": -108.0,
+    "under_price": -112.0
+  },
+  {
+    "away": "Portland Trail Blazers",
+    "book": "DraftKings",
+    "captured_at": "2026-11-06T19:26:27.363111+00:00",
+    "commence_time": "2026-11-07T03:00Z",
+    "event_id": "401909294",
+    "home": "Los Angeles Lakers",
+    "line": 231.5,
+    "offers": 9,
+    "over_price": -112.0,
+    "under_price": -108.0
+  },
+  {
+    "away": "San Antonio Spurs",
+    "book": "LowVig.ag",
+    "captured_at": "2026-11-06T19:26:27.363111+00:00",
+    "commence_time": "2026-11-07T03:00Z",
+    "event_id": "401909295",
+    "home": "Sacramento Kings",
+    "line": 230.5,
+    "offers": 9,
+    "over_price": -107.0,
+    "under_price": -107.0
   }
 ]
