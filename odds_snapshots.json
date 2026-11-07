@@ -4006,5 +4006,65 @@
     "offers": 9,
     "over_price": -107.0,
     "under_price": -107.0
+  },
+  {
+    "away": "Portland Trail Blazers",
+    "book": "LowVig.ag",
+    "captured_at": "2026-11-07T01:17:06.168558+00:00",
+    "commence_time": "2026-11-07T03:00Z",
+    "event_id": "401909294",
+    "home": "Los Angeles Lakers",
+    "line": 232.0,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -104.0
+  },
+  {
+    "away": "San Antonio Spurs",
+    "book": "DraftKings",
+    "captured_at": "2026-11-07T01:17:06.168558+00:00",
+    "commence_time": "2026-11-07T03:00Z",
+    "event_id": "401909295",
+    "home": "Sacramento Kings",
+    "line": 231.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Denver Nuggets",
+    "book": "FanDuel",
+    "captured_at": "2026-11-07T01:17:06.168558+00:00",
+    "commence_time": "2026-11-07T22:00Z",
+    "event_id": "401909938",
+    "home": "Indiana Pacers",
+    "line": 228.5,
+    "offers": 1,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Orlando Magic",
+    "book": "FanDuel",
+    "captured_at": "2026-11-07T01:17:06.168558+00:00",
+    "commence_time": "2026-11-08T01:30Z",
+    "event_id": "401909942",
+    "home": "Golden State Warriors",
+    "line": 219.5,
+    "offers": 1,
+    "over_price": -115.0,
+    "under_price": -105.0
+  },
+  {
+    "away": "Houston Rockets",
+    "book": "LowVig.ag",
+    "captured_at": "2026-11-07T01:17:06.168558+00:00",
+    "commence_time": "2026-11-08T02:00Z",
+    "event_id": "401909943",
+    "home": "Phoenix Suns",
+    "line": 224.0,
+    "offers": 3,
+    "over_price": -107.0,
+    "under_price": -107.0
   }
 ]
