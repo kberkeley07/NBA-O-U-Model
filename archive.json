@@ -3430,5 +3430,31 @@
     "id": "401909937",
     "period": 4,
     "status": "final"
+  },
+  "401909938": {
+    "away": "Denver Nuggets",
+    "away_box": {
+      "fga": 96.0,
+      "fta": 19.0,
+      "orb": 9.0,
+      "poss": 98.36,
+      "tov": 3.0
+    },
+    "away_score": 114.0,
+    "away_team_id": "7",
+    "date": "2026-11-07T22:00Z",
+    "home": "Indiana Pacers",
+    "home_box": {
+      "fga": 92.0,
+      "fta": 7.0,
+      "orb": 6.0,
+      "poss": 99.08,
+      "tov": 10.0
+    },
+    "home_score": 102.0,
+    "home_team_id": "11",
+    "id": "401909938",
+    "period": 4,
+    "status": "final"
   }
 }
