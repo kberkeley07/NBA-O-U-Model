@@ -4282,5 +4282,89 @@
     "offers": 4,
     "over_price": -115.0,
     "under_price": -105.0
+  },
+  {
+    "away": "Philadelphia 76ers",
+    "book": "DraftKings",
+    "captured_at": "2026-11-08T17:56:39.747121+00:00",
+    "commence_time": "2026-11-08T20:30Z",
+    "event_id": "401909945",
+    "home": "Chicago Bulls",
+    "line": 238.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Los Angeles Lakers",
+    "book": "FanDuel",
+    "captured_at": "2026-11-08T17:56:39.747121+00:00",
+    "commence_time": "2026-11-08T23:00Z",
+    "event_id": "401909946",
+    "home": "Detroit Pistons",
+    "line": 221.5,
+    "offers": 9,
+    "over_price": -105.0,
+    "under_price": -115.0
+  },
+  {
+    "away": "Utah Jazz",
+    "book": "FanDuel",
+    "captured_at": "2026-11-08T17:56:39.747121+00:00",
+    "commence_time": "2026-11-09T00:00Z",
+    "event_id": "401909947",
+    "home": "Minnesota Timberwolves",
+    "line": 222.5,
+    "offers": 9,
+    "over_price": -112.0,
+    "under_price": -108.0
+  },
+  {
+    "away": "Brooklyn Nets",
+    "book": "FanDuel",
+    "captured_at": "2026-11-08T17:56:39.747121+00:00",
+    "commence_time": "2026-11-09T00:30Z",
+    "event_id": "401909948",
+    "home": "Dallas Mavericks",
+    "line": 222.5,
+    "offers": 9,
+    "over_price": -114.0,
+    "under_price": -106.0
+  },
+  {
+    "away": "Boston Celtics",
+    "book": "BetUS",
+    "captured_at": "2026-11-08T17:56:39.747121+00:00",
+    "commence_time": "2026-11-09T01:00Z",
+    "event_id": "401909949",
+    "home": "Milwaukee Bucks",
+    "line": 222.0,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "New Orleans Pelicans",
+    "book": "BetOnline.ag",
+    "captured_at": "2026-11-08T17:56:39.747121+00:00",
+    "commence_time": "2026-11-09T02:00Z",
+    "event_id": "401909950",
+    "home": "Los Angeles Clippers",
+    "line": 227.0,
+    "offers": 9,
+    "over_price": -105.0,
+    "under_price": -115.0
+  },
+  {
+    "away": "Miami Heat",
+    "book": "BetOnline.ag",
+    "captured_at": "2026-11-08T17:56:39.747121+00:00",
+    "commence_time": "2026-11-09T02:00Z",
+    "event_id": "401909951",
+    "home": "Sacramento Kings",
+    "line": 237.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
   }
 ]
