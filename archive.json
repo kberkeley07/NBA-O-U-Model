@@ -3612,5 +3612,31 @@
     "id": "401909944",
     "period": 4,
     "status": "final"
+  },
+  "401909945": {
+    "away": "Philadelphia 76ers",
+    "away_box": {
+      "fga": 99.0,
+      "fta": 25.0,
+      "orb": 20.0,
+      "poss": 99.0,
+      "tov": 9.0
+    },
+    "away_score": 127.0,
+    "away_team_id": "20",
+    "date": "2026-11-08T20:30Z",
+    "home": "Chicago Bulls",
+    "home_box": {
+      "fga": 88.0,
+      "fta": 23.0,
+      "orb": 9.0,
+      "poss": 102.12,
+      "tov": 13.0
+    },
+    "home_score": 121.0,
+    "home_team_id": "4",
+    "id": "401909945",
+    "period": 4,
+    "status": "final"
   }
 }
