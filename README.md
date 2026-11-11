@@ -1,6 +1,6 @@
 # Berk's Book NBA Totals Lab v2 — free starter
 
-A zero-paid-service, mobile-first NBA totals dashboard with a Python ingestion pipeline and scheduled GitHub Pages deployment. Predictions are **deliberately locked** until **10 qualifying games per team**. **No real wagers or automatic bets.**
+A zero-paid-service, mobile-first NBA totals dashboard with a Python ingestion pipeline and scheduled GitHub Pages deployment. Predictions are **deliberately locked** until **10 qualifying games per team**. Official paper tracking starts **November 11, 2026**; earlier preview forecasts and games are never backfilled. **No real wagers or automatic bets.**
 
 ## Get it online — start here
 

@@ -23,7 +23,8 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
 SITE_DATA = ROOT / 'site' / 'data'
-START = dt.date(2026, 10, 20)
+START = dt.date(2026, 10, 20)          # Stats collection start
+TRACKING_START = dt.date(2026, 11, 11) # First date eligible for official paper picks
 TZ = ZoneInfo('America/New_York')
 MIN_GAMES = 10          # Minimum for official WATCH/paper signals
 PREVIEW_MIN_GAMES = 1   # Minimum for experimental projections
@@ -213,7 +214,7 @@ def find_odds(game, odds):
         if not offers: return None
         line=statistics.median(o['line'] for o in offers)
         best=min(offers,key=lambda o:abs(o['line']-line))
-        return {'line':line,'book':best['book'], 'over_price':best['over_price'],
+        return {'line':best['line'],'consensus_line':line,'book':best['book'], 'over_price':best['over_price'],
                 'under_price':best['under_price'], 'offers':len(offers)}
     return None
 
@@ -265,13 +266,23 @@ def project(game, teams, league_eff, odds_info):
         projected=None; edge=None; direction=None
     else:
         projected=round(raw_total,1)
-        edge=round(projected-odds_info['line'],1) if odds_info else None
-        direction='OVER' if edge is not None and edge >= WATCH_EDGE else 'UNDER' if edge is not None and edge <= -WATCH_EDGE else None
+        raw_edge=raw_total-odds_info['line'] if odds_info else None
+        edge=round(raw_edge,1) if raw_edge is not None else None
+        direction='OVER' if raw_edge is not None and raw_edge >= WATCH_EDGE else 'UNDER' if raw_edge is not None and raw_edge <= -WATCH_EDGE else None
     return {'total':projected,'pace':round(pace,1),'edge':edge,
             'watch':direction if not preview else None,
             'preview':preview,'preview_direction':direction if preview else None,
             'home_games':hs['games'],'away_games':a['games'],'original':original,
             'model_version':'v0.3 adjusted model (2026–27 baseline, unvalidated)'}
+
+
+def tracking_date_allowed(game_date):
+    """True only for games on/after the official start date in Eastern Time."""
+    try:
+        local_date=dt.datetime.fromisoformat(str(game_date).replace('Z','+00:00')).astimezone(TZ).date()
+        return local_date >= TRACKING_START
+    except (TypeError,ValueError,AttributeError):
+        return False
 
 def american_units(price):
     if price is None or price==0: return None
@@ -322,7 +333,8 @@ def run():
         rows.append(rec)
         # Only lock picks after BOTH teams have >= 10 qualifying games.
         # V1 and V2 receive independent, immutable pregame entries.
-        if pregame and calc and not calc['preview'] and info:
+        if (pregame and tracking_date_allowed(g.get('date'))
+                and calc and not calc['preview'] and info):
             for model_name, model_calc in (('v1',calc.get('original')),('v2',calc)):
                 if not model_calc or not model_calc.get('watch'): continue
                 pick_key=g['id']+'|'+model_name
@@ -352,7 +364,9 @@ def run():
         'odds_events_available':len(odds),'odds_credits_remaining':remaining,
         'odds_snapshots_saved':len(odds_snapshots),
         'injuries_integrated':False},
-      'settings':{'min_games':MIN_GAMES,'preview_min_games':PREVIEW_MIN_GAMES,'watch_edge':WATCH_EDGE,'start_date':str(START)},
+      'settings':{'min_games':MIN_GAMES,'preview_min_games':PREVIEW_MIN_GAMES,
+                   'watch_edge':WATCH_EDGE,'start_date':str(START),
+                   'tracking_start':str(TRACKING_START),'tracking_active':today>=TRACKING_START},
       'performance':v2_perf,'performance_by_model':{'v1':v1_perf,'v2':v2_perf},
       'games':rows,'teams':sorted(stats.values(),key=lambda r:r['team']),
       'paper_bets':sorted(picks.values(),key=lambda p:p.get('date',''),reverse=True)[:150],
