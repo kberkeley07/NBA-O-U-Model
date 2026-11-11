@@ -1,1 +1,36 @@
-{}
+{
+  "401909968|v1": {
+    "away": "Boston Celtics",
+    "book": "FanDuel",
+    "date": "2026-11-12T00:00Z",
+    "edge": 9.24,
+    "event_id": "401909968",
+    "home": "Toronto Raptors",
+    "line": 215.5,
+    "model": "v1",
+    "paper_only": true,
+    "price": -110.0,
+    "projection": 224.7,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-11T19:17:18.808592+00:00",
+    "units": null
+  },
+  "401909968|v2": {
+    "away": "Boston Celtics",
+    "book": "FanDuel",
+    "date": "2026-11-12T00:00Z",
+    "edge": 9.3,
+    "event_id": "401909968",
+    "home": "Toronto Raptors",
+    "line": 215.5,
+    "model": "v2",
+    "paper_only": true,
+    "price": -110.0,
+    "projection": 224.8,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-11T19:17:18.808592+00:00",
+    "units": null
+  }
+}
