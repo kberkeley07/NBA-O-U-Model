@@ -1,5 +1,6 @@
 {
   "401909968|v1": {
+    "actual": 191.0,
     "away": "Boston Celtics",
     "book": "FanDuel",
     "date": "2026-11-12T00:00Z",
@@ -11,12 +12,13 @@
     "paper_only": true,
     "price": -110.0,
     "projection": 224.7,
-    "result": "pending",
+    "result": "loss",
     "side": "OVER",
     "timestamp": "2026-11-11T19:17:18.808592+00:00",
-    "units": null
+    "units": -1
   },
   "401909968|v2": {
+    "actual": 191.0,
     "away": "Boston Celtics",
     "book": "FanDuel",
     "date": "2026-11-12T00:00Z",
@@ -28,10 +30,10 @@
     "paper_only": true,
     "price": -110.0,
     "projection": 224.8,
-    "result": "pending",
+    "result": "loss",
     "side": "OVER",
     "timestamp": "2026-11-11T19:17:18.808592+00:00",
-    "units": null
+    "units": -1
   },
   "401909979|v1": {
     "away": "Charlotte Hornets",
