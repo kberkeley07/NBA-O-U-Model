@@ -32,5 +32,39 @@
     "side": "OVER",
     "timestamp": "2026-11-11T19:17:18.808592+00:00",
     "units": null
+  },
+  "401909979|v1": {
+    "away": "Charlotte Hornets",
+    "book": "FanDuel",
+    "date": "2026-11-13T02:00Z",
+    "edge": 6.1,
+    "event_id": "401909979",
+    "home": "Phoenix Suns",
+    "line": 213.5,
+    "model": "v1",
+    "paper_only": true,
+    "price": -105.0,
+    "projection": 219.6,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-12T02:32:38.896547+00:00",
+    "units": null
+  },
+  "401909979|v2": {
+    "away": "Charlotte Hornets",
+    "book": "FanDuel",
+    "date": "2026-11-13T02:00Z",
+    "edge": 5.9,
+    "event_id": "401909979",
+    "home": "Phoenix Suns",
+    "line": 213.5,
+    "model": "v2",
+    "paper_only": true,
+    "price": -105.0,
+    "projection": 219.4,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-12T02:32:38.896547+00:00",
+    "units": null
   }
 }

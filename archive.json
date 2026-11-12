@@ -4158,5 +4158,31 @@
     "id": "401909965",
     "period": 4,
     "status": "final"
+  },
+  "401909966": {
+    "away": "Washington Wizards",
+    "away_box": {
+      "fga": 90.0,
+      "fta": 22.0,
+      "orb": 15.0,
+      "poss": 98.68,
+      "tov": 14.0
+    },
+    "away_score": 101.0,
+    "away_team_id": "27",
+    "date": "2026-11-12T00:00Z",
+    "home": "Indiana Pacers",
+    "home_box": {
+      "fga": 89.0,
+      "fta": 24.0,
+      "orb": 14.0,
+      "poss": 96.56,
+      "tov": 11.0
+    },
+    "home_score": 114.0,
+    "home_team_id": "11",
+    "id": "401909966",
+    "period": 4,
+    "status": "final"
   }
 }
