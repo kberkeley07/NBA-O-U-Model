@@ -1,4 +1,38 @@
 {
+  "401909302|v1": {
+    "away": "Golden State Warriors",
+    "book": "DraftKings",
+    "date": "2026-11-14T02:30Z",
+    "edge": 10.44,
+    "event_id": "401909302",
+    "home": "San Antonio Spurs",
+    "line": 218.5,
+    "model": "v1",
+    "paper_only": true,
+    "price": -110.0,
+    "projection": 228.9,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-13T02:09:45.706941+00:00",
+    "units": null
+  },
+  "401909302|v2": {
+    "away": "Golden State Warriors",
+    "book": "DraftKings",
+    "date": "2026-11-14T02:30Z",
+    "edge": 11.0,
+    "event_id": "401909302",
+    "home": "San Antonio Spurs",
+    "line": 218.5,
+    "model": "v2",
+    "paper_only": true,
+    "price": -110.0,
+    "projection": 229.5,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-13T02:09:45.706941+00:00",
+    "units": null
+  },
   "401909968|v1": {
     "actual": 191.0,
     "away": "Boston Celtics",
