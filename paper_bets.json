@@ -1,4 +1,38 @@
 {
+  "401909299|v1": {
+    "away": "Atlanta Hawks",
+    "book": "BetOnline.ag",
+    "date": "2026-11-14T01:00Z",
+    "edge": -6.45,
+    "event_id": "401909299",
+    "home": "Chicago Bulls",
+    "line": 246.0,
+    "model": "v1",
+    "paper_only": true,
+    "price": -110.0,
+    "projection": 239.6,
+    "result": "pending",
+    "side": "UNDER",
+    "timestamp": "2026-11-13T13:23:54.701443+00:00",
+    "units": null
+  },
+  "401909299|v2": {
+    "away": "Atlanta Hawks",
+    "book": "BetOnline.ag",
+    "date": "2026-11-14T01:00Z",
+    "edge": -6.1,
+    "event_id": "401909299",
+    "home": "Chicago Bulls",
+    "line": 246.0,
+    "model": "v2",
+    "paper_only": true,
+    "price": -110.0,
+    "projection": 239.9,
+    "result": "pending",
+    "side": "UNDER",
+    "timestamp": "2026-11-13T13:23:54.701443+00:00",
+    "units": null
+  },
   "401909302|v1": {
     "away": "Golden State Warriors",
     "book": "DraftKings",
@@ -70,6 +104,7 @@
     "units": -1
   },
   "401909979|v1": {
+    "actual": 197.0,
     "away": "Charlotte Hornets",
     "book": "FanDuel",
     "date": "2026-11-13T02:00Z",
@@ -81,12 +116,13 @@
     "paper_only": true,
     "price": -105.0,
     "projection": 219.6,
-    "result": "pending",
+    "result": "loss",
     "side": "OVER",
     "timestamp": "2026-11-12T02:32:38.896547+00:00",
-    "units": null
+    "units": -1
   },
   "401909979|v2": {
+    "actual": 197.0,
     "away": "Charlotte Hornets",
     "book": "FanDuel",
     "date": "2026-11-13T02:00Z",
@@ -98,9 +134,9 @@
     "paper_only": true,
     "price": -105.0,
     "projection": 219.4,
-    "result": "pending",
+    "result": "loss",
     "side": "OVER",
     "timestamp": "2026-11-12T02:32:38.896547+00:00",
-    "units": null
+    "units": -1
   }
 }
