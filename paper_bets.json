@@ -1,5 +1,6 @@
 {
   "401909299|v1": {
+    "actual": 242.0,
     "away": "Atlanta Hawks",
     "book": "BetOnline.ag",
     "date": "2026-11-14T01:00Z",
@@ -11,12 +12,13 @@
     "paper_only": true,
     "price": -110.0,
     "projection": 239.6,
-    "result": "pending",
+    "result": "win",
     "side": "UNDER",
     "timestamp": "2026-11-13T13:23:54.701443+00:00",
-    "units": null
+    "units": 0.9091
   },
   "401909299|v2": {
+    "actual": 242.0,
     "away": "Atlanta Hawks",
     "book": "BetOnline.ag",
     "date": "2026-11-14T01:00Z",
@@ -28,12 +30,13 @@
     "paper_only": true,
     "price": -110.0,
     "projection": 239.9,
-    "result": "pending",
+    "result": "win",
     "side": "UNDER",
     "timestamp": "2026-11-13T13:23:54.701443+00:00",
-    "units": null
+    "units": 0.9091
   },
   "401909302|v1": {
+    "actual": 208.0,
     "away": "Golden State Warriors",
     "book": "DraftKings",
     "date": "2026-11-14T02:30Z",
@@ -45,12 +48,13 @@
     "paper_only": true,
     "price": -110.0,
     "projection": 228.9,
-    "result": "pending",
+    "result": "loss",
     "side": "OVER",
     "timestamp": "2026-11-13T02:09:45.706941+00:00",
-    "units": null
+    "units": -1
   },
   "401909302|v2": {
+    "actual": 208.0,
     "away": "Golden State Warriors",
     "book": "DraftKings",
     "date": "2026-11-14T02:30Z",
@@ -62,10 +66,10 @@
     "paper_only": true,
     "price": -110.0,
     "projection": 229.5,
-    "result": "pending",
+    "result": "loss",
     "side": "OVER",
     "timestamp": "2026-11-13T02:09:45.706941+00:00",
-    "units": null
+    "units": -1
   },
   "401909968|v1": {
     "actual": 191.0,
