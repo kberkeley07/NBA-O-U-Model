@@ -5758,5 +5758,101 @@
     "offers": 9,
     "over_price": -110.0,
     "under_price": -110.0
+  },
+  {
+    "away": "Los Angeles Lakers",
+    "book": "MyBookie.ag",
+    "captured_at": "2026-11-15T18:53:00.824975+00:00",
+    "commence_time": "2026-11-15T21:00Z",
+    "event_id": "401909986",
+    "home": "Phoenix Suns",
+    "line": 226.0,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Charlotte Hornets",
+    "book": "LowVig.ag",
+    "captured_at": "2026-11-15T18:53:00.824975+00:00",
+    "commence_time": "2026-11-15T21:30Z",
+    "event_id": "401909987",
+    "home": "Los Angeles Clippers",
+    "line": 213.0,
+    "offers": 9,
+    "over_price": -107.0,
+    "under_price": -107.0
+  },
+  {
+    "away": "San Antonio Spurs",
+    "book": "BetOnline.ag",
+    "captured_at": "2026-11-15T18:53:00.824975+00:00",
+    "commence_time": "2026-11-15T22:00Z",
+    "event_id": "401909988",
+    "home": "Utah Jazz",
+    "line": 225.0,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Dallas Mavericks",
+    "book": "MyBookie.ag",
+    "captured_at": "2026-11-15T18:53:00.824975+00:00",
+    "commence_time": "2026-11-15T23:00Z",
+    "event_id": "401909989",
+    "home": "Boston Celtics",
+    "line": 218.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "New York Knicks",
+    "book": "FanDuel",
+    "captured_at": "2026-11-15T18:53:00.824975+00:00",
+    "commence_time": "2026-11-15T23:00Z",
+    "event_id": "401909990",
+    "home": "Toronto Raptors",
+    "line": 217.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Houston Rockets",
+    "book": "BetUS",
+    "captured_at": "2026-11-15T18:53:00.824975+00:00",
+    "commence_time": "2026-11-16T00:00Z",
+    "event_id": "401909991",
+    "home": "Washington Wizards",
+    "line": 224.0,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Atlanta Hawks",
+    "book": "FanDuel",
+    "captured_at": "2026-11-15T18:53:00.824975+00:00",
+    "commence_time": "2026-11-16T01:00Z",
+    "event_id": "401909992",
+    "home": "Milwaukee Bucks",
+    "line": 233.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Oklahoma City Thunder",
+    "book": "FanDuel",
+    "captured_at": "2026-11-15T18:53:00.824975+00:00",
+    "commence_time": "2026-11-16T02:00Z",
+    "event_id": "401909993",
+    "home": "Sacramento Kings",
+    "line": 222.5,
+    "offers": 9,
+    "over_price": -110.0,
+    "under_price": -110.0
   }
 ]
