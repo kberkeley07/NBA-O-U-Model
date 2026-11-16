@@ -144,6 +144,7 @@
     "units": -1
   },
   "401909986|v2": {
+    "actual": 254.0,
     "away": "Los Angeles Lakers",
     "book": "MyBookie.ag",
     "date": "2026-11-15T21:00Z",
@@ -155,12 +156,13 @@
     "paper_only": true,
     "price": -110.0,
     "projection": 232.0,
-    "result": "pending",
+    "result": "win",
     "side": "OVER",
     "timestamp": "2026-11-15T18:53:00.824975+00:00",
-    "units": null
+    "units": 0.9091
   },
   "401909987|v1": {
+    "actual": 218.0,
     "away": "Charlotte Hornets",
     "book": "LowVig.ag",
     "date": "2026-11-15T21:30Z",
@@ -172,12 +174,13 @@
     "paper_only": true,
     "price": -107.0,
     "projection": 219.5,
-    "result": "pending",
+    "result": "win",
     "side": "OVER",
     "timestamp": "2026-11-15T18:53:00.824975+00:00",
-    "units": null
+    "units": 0.9346
   },
   "401909987|v2": {
+    "actual": 218.0,
     "away": "Charlotte Hornets",
     "book": "LowVig.ag",
     "date": "2026-11-15T21:30Z",
@@ -189,9 +192,26 @@
     "paper_only": true,
     "price": -107.0,
     "projection": 218.6,
-    "result": "pending",
+    "result": "win",
     "side": "OVER",
     "timestamp": "2026-11-15T18:53:00.824975+00:00",
+    "units": 0.9346
+  },
+  "401910000|v2": {
+    "away": "Golden State Warriors",
+    "book": "DraftKings",
+    "date": "2026-11-17T01:00Z",
+    "edge": 5.5,
+    "event_id": "401910000",
+    "home": "New Orleans Pelicans",
+    "line": 226.5,
+    "model": "v2",
+    "paper_only": true,
+    "price": -110.0,
+    "projection": 232.0,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-16T01:25:50.123680+00:00",
     "units": null
   }
 }
