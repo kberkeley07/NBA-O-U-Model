@@ -5302,5 +5302,31 @@
     "id": "401910000",
     "period": 4,
     "status": "final"
+  },
+  "401910001": {
+    "away": "Phoenix Suns",
+    "away_box": {
+      "fga": 88.0,
+      "fta": 25.0,
+      "orb": 18.0,
+      "poss": 95.0,
+      "tov": 14.0
+    },
+    "away_score": 117.0,
+    "away_team_id": "21",
+    "date": "2026-11-17T02:00Z",
+    "home": "Denver Nuggets",
+    "home_box": {
+      "fga": 83.0,
+      "fta": 19.0,
+      "orb": 9.0,
+      "poss": 100.36,
+      "tov": 18.0
+    },
+    "home_score": 105.0,
+    "home_team_id": "7",
+    "id": "401910001",
+    "period": 4,
+    "status": "final"
   }
 }
