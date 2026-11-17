@@ -198,6 +198,7 @@
     "units": 0.9346
   },
   "401909995|v1": {
+    "actual": 241.0,
     "away": "Chicago Bulls",
     "book": "DraftKings",
     "date": "2026-11-17T00:00Z",
@@ -209,12 +210,13 @@
     "paper_only": true,
     "price": -110.0,
     "projection": 235.9,
-    "result": "pending",
+    "result": "win",
     "side": "UNDER",
     "timestamp": "2026-11-16T22:05:45.142744+00:00",
-    "units": null
+    "units": 0.9091
   },
   "401909996|v1": {
+    "actual": 256.0,
     "away": "Memphis Grizzlies",
     "book": "LowVig.ag",
     "date": "2026-11-17T00:00Z",
@@ -226,12 +228,13 @@
     "paper_only": true,
     "price": -107.0,
     "projection": 226.5,
-    "result": "pending",
+    "result": "loss",
     "side": "UNDER",
     "timestamp": "2026-11-16T22:05:45.142744+00:00",
-    "units": null
+    "units": -1
   },
   "401909996|v2": {
+    "actual": 256.0,
     "away": "Memphis Grizzlies",
     "book": "LowVig.ag",
     "date": "2026-11-17T00:00Z",
@@ -243,10 +246,10 @@
     "paper_only": true,
     "price": -107.0,
     "projection": 226.5,
-    "result": "pending",
+    "result": "loss",
     "side": "UNDER",
     "timestamp": "2026-11-16T22:05:45.142744+00:00",
-    "units": null
+    "units": -1
   },
   "401910000|v1": {
     "away": "Golden State Warriors",
@@ -280,6 +283,40 @@
     "result": "pending",
     "side": "OVER",
     "timestamp": "2026-11-16T01:25:50.123680+00:00",
+    "units": null
+  },
+  "401910003|v1": {
+    "away": "Portland Trail Blazers",
+    "book": "FanDuel",
+    "date": "2026-11-18T01:00Z",
+    "edge": 18.58,
+    "event_id": "401910003",
+    "home": "Minnesota Timberwolves",
+    "line": 209.5,
+    "model": "v1",
+    "paper_only": true,
+    "price": -114.0,
+    "projection": 228.1,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-17T03:13:15.749539+00:00",
+    "units": null
+  },
+  "401910003|v2": {
+    "away": "Portland Trail Blazers",
+    "book": "FanDuel",
+    "date": "2026-11-18T01:00Z",
+    "edge": 18.3,
+    "event_id": "401910003",
+    "home": "Minnesota Timberwolves",
+    "line": 209.5,
+    "model": "v2",
+    "paper_only": true,
+    "price": -114.0,
+    "projection": 227.8,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-17T03:13:15.749539+00:00",
     "units": null
   }
 }
