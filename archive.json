@@ -5328,5 +5328,31 @@
     "id": "401910001",
     "period": 4,
     "status": "final"
+  },
+  "401910002": {
+    "away": "New York Knicks",
+    "away_box": {
+      "fga": 78.0,
+      "fta": 19.0,
+      "orb": 12.0,
+      "poss": 86.36,
+      "tov": 12.0
+    },
+    "away_score": 111.0,
+    "away_team_id": "18",
+    "date": "2026-11-18T00:30Z",
+    "home": "Toronto Raptors",
+    "home_box": {
+      "fga": 78.0,
+      "fta": 18.0,
+      "orb": 5.0,
+      "poss": 85.92,
+      "tov": 5.0
+    },
+    "home_score": 102.0,
+    "home_team_id": "28",
+    "id": "401910002",
+    "period": 4,
+    "status": "final"
   }
 }
