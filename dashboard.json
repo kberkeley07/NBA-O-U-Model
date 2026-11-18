@@ -8,21 +8,21 @@
       "home_score": null,
       "id": "401910007",
       "market": {
-        "book": "FanDuel",
-        "consensus_line": 236.5,
-        "line": 236.5,
+        "book": "LowVig.ag",
+        "consensus_line": 237.5,
+        "line": 237.5,
         "offers": 9,
-        "over_price": -105.0,
-        "under_price": -115.0
+        "over_price": -107.0,
+        "under_price": -107.0
       },
       "prediction": {
         "away_games": 13,
-        "edge": -3.1,
+        "edge": -4.1,
         "home_games": 14,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 117.93,
-          "edge": -4.11,
+          "edge": -5.11,
           "home_points": 114.46,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 102.03,
@@ -47,12 +47,12 @@
       "home_score": null,
       "id": "401910008",
       "market": {
-        "book": "FanDuel",
+        "book": "LowVig.ag",
         "consensus_line": 225.5,
         "line": 225.5,
         "offers": 9,
-        "over_price": -110.0,
-        "under_price": -110.0
+        "over_price": -107.0,
+        "under_price": -107.0
       },
       "prediction": {
         "away_games": 15,
@@ -90,8 +90,8 @@
         "consensus_line": 236.5,
         "line": 236.5,
         "offers": 9,
-        "over_price": -114.0,
-        "under_price": -106.0
+        "over_price": -108.0,
+        "under_price": -112.0
       },
       "prediction": {
         "away_games": 14,
@@ -125,21 +125,21 @@
       "home_score": null,
       "id": "401910010",
       "market": {
-        "book": "MyBookie.ag",
-        "consensus_line": 222.0,
-        "line": 222.0,
+        "book": "FanDuel",
+        "consensus_line": 221.5,
+        "line": 221.5,
         "offers": 9,
         "over_price": -110.0,
         "under_price": -110.0
       },
       "prediction": {
         "away_games": 15,
-        "edge": -1.0,
+        "edge": -0.5,
         "home_games": 12,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 112.17,
-          "edge": -0.28,
+          "edge": 0.22,
           "home_points": 109.55,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 100.41,
@@ -164,21 +164,21 @@
       "home_score": null,
       "id": "401910011",
       "market": {
-        "book": "BetOnline.ag",
-        "consensus_line": 240.0,
-        "line": 240.0,
+        "book": "FanDuel",
+        "consensus_line": 239.5,
+        "line": 239.5,
         "offers": 9,
-        "over_price": -115.0,
-        "under_price": -105.0
+        "over_price": -108.0,
+        "under_price": -112.0
       },
       "prediction": {
         "away_games": 12,
-        "edge": -6.5,
+        "edge": -6.0,
         "home_games": 12,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 115.15,
-          "edge": -6.83,
+          "edge": -6.33,
           "home_points": 118.02,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 103.41,
@@ -243,20 +243,20 @@
       "id": "401910013",
       "market": {
         "book": "BetUS",
-        "consensus_line": 228.0,
-        "line": 228.0,
+        "consensus_line": 226.0,
+        "line": 226.0,
         "offers": 9,
         "over_price": -110.0,
         "under_price": -110.0
       },
       "prediction": {
         "away_games": 12,
-        "edge": -2.9,
+        "edge": -0.9,
         "home_games": 12,
         "model_version": "v0.3 adjusted model (2026–27 baseline, unvalidated)",
         "original": {
           "away_points": 116.73,
-          "edge": -2.71,
+          "edge": -0.71,
           "home_points": 108.55,
           "model_version": "Excel v1 exact formula, 2026–27 estimated inputs",
           "pace": 101.16,
@@ -281,7 +281,7 @@
       "home_score": null,
       "id": "401910014",
       "market": {
-        "book": "BetMGM",
+        "book": "FanDuel",
         "consensus_line": 228.5,
         "line": 228.5,
         "offers": 9,
@@ -363,8 +363,8 @@
         "consensus_line": 220.5,
         "line": 220.5,
         "offers": 9,
-        "over_price": -110.0,
-        "under_price": -110.0
+        "over_price": -106.0,
+        "under_price": -114.0
       },
       "prediction": {
         "away_games": 13,
@@ -597,7 +597,7 @@
       "status": "scheduled"
     }
   ],
-  "generated_at": "2026-11-18T18:43:00.118764+00:00",
+  "generated_at": "2026-11-18T20:34:03.123446+00:00",
   "notes": [
     "V1 exactly reproduces the original Excel arithmetic using 2026–27 derived pace/ratings; inputs are approximate, not the old workbook values.",
     "Historical Excel workbook reports 40–28, +8.1128u but does not prove predictions were frozen at tipoff.",
@@ -1040,9 +1040,9 @@
     "games_archived": 210,
     "injuries_integrated": false,
     "odds_configured": true,
-    "odds_credits_remaining": "458",
+    "odds_credits_remaining": "457",
     "odds_events_available": 12,
-    "odds_snapshots_saved": 539,
+    "odds_snapshots_saved": 551,
     "teams_ready": 30,
     "teams_with_stats": 30
   },
