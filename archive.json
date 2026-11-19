@@ -5458,5 +5458,109 @@
     "id": "401910006",
     "period": 4,
     "status": "final"
+  },
+  "401910007": {
+    "away": "Memphis Grizzlies",
+    "away_box": {
+      "fga": 78.0,
+      "fta": 29.0,
+      "orb": 5.0,
+      "poss": 96.76,
+      "tov": 11.0
+    },
+    "away_score": 124.0,
+    "away_team_id": "29",
+    "date": "2026-11-19T00:00Z",
+    "home": "Cleveland Cavaliers",
+    "home_box": {
+      "fga": 95.0,
+      "fta": 20.0,
+      "orb": 20.0,
+      "poss": 94.8,
+      "tov": 11.0
+    },
+    "home_score": 121.0,
+    "home_team_id": "5",
+    "id": "401910007",
+    "period": 4,
+    "status": "final"
+  },
+  "401910008": {
+    "away": "Houston Rockets",
+    "away_box": {
+      "fga": 89.0,
+      "fta": 17.0,
+      "orb": 13.0,
+      "poss": 99.48,
+      "tov": 16.0
+    },
+    "away_score": 119.0,
+    "away_team_id": "10",
+    "date": "2026-11-19T00:00Z",
+    "home": "Indiana Pacers",
+    "home_box": {
+      "fga": 87.0,
+      "fta": 10.0,
+      "orb": 7.0,
+      "poss": 95.4,
+      "tov": 11.0
+    },
+    "home_score": 104.0,
+    "home_team_id": "11",
+    "id": "401910008",
+    "period": 4,
+    "status": "final"
+  },
+  "401910010": {
+    "away": "Philadelphia 76ers",
+    "away_box": {
+      "fga": 81.0,
+      "fta": 26.0,
+      "orb": 8.0,
+      "poss": 96.44,
+      "tov": 12.0
+    },
+    "away_score": 121.0,
+    "away_team_id": "20",
+    "date": "2026-11-19T00:00Z",
+    "home": "Orlando Magic",
+    "home_box": {
+      "fga": 84.0,
+      "fta": 17.0,
+      "orb": 9.0,
+      "poss": 93.48,
+      "tov": 11.0
+    },
+    "home_score": 116.0,
+    "home_team_id": "19",
+    "id": "401910010",
+    "period": 4,
+    "status": "final"
+  },
+  "401910011": {
+    "away": "Chicago Bulls",
+    "away_box": {
+      "fga": 99.0,
+      "fta": 12.0,
+      "orb": 18.0,
+      "poss": 100.28,
+      "tov": 14.0
+    },
+    "away_score": 137.0,
+    "away_team_id": "4",
+    "date": "2026-11-19T00:30Z",
+    "home": "Brooklyn Nets",
+    "home_box": {
+      "fga": 81.0,
+      "fta": 19.0,
+      "orb": 9.0,
+      "poss": 100.36,
+      "tov": 20.0
+    },
+    "home_score": 107.0,
+    "home_team_id": "17",
+    "id": "401910011",
+    "period": 4,
+    "status": "final"
   }
 }

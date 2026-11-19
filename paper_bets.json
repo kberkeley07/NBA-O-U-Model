@@ -360,6 +360,7 @@
     "units": 0.8772
   },
   "401910011|v1": {
+    "actual": 244.0,
     "away": "Chicago Bulls",
     "book": "BetOnline.ag",
     "date": "2026-11-19T00:30Z",
@@ -371,12 +372,13 @@
     "paper_only": true,
     "price": -105.0,
     "projection": 233.2,
-    "result": "pending",
+    "result": "loss",
     "side": "UNDER",
     "timestamp": "2026-11-18T18:43:00.118764+00:00",
-    "units": null
+    "units": -1
   },
   "401910011|v2": {
+    "actual": 244.0,
     "away": "Chicago Bulls",
     "book": "BetOnline.ag",
     "date": "2026-11-19T00:30Z",
@@ -388,9 +390,9 @@
     "paper_only": true,
     "price": -105.0,
     "projection": 233.5,
-    "result": "pending",
+    "result": "loss",
     "side": "UNDER",
     "timestamp": "2026-11-18T18:43:00.118764+00:00",
-    "units": null
+    "units": -1
   }
 }
