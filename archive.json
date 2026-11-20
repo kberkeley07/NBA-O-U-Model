@@ -5770,5 +5770,109 @@
     "id": "401910018",
     "period": 4,
     "status": "final"
+  },
+  "401910019": {
+    "away": "Golden State Warriors",
+    "away_box": {
+      "fga": 80.0,
+      "fta": 32.0,
+      "orb": 18.0,
+      "poss": 96.08,
+      "tov": 20.0
+    },
+    "away_score": 98.0,
+    "away_team_id": "9",
+    "date": "2026-11-20T01:00Z",
+    "home": "Memphis Grizzlies",
+    "home_box": {
+      "fga": 90.0,
+      "fta": 17.0,
+      "orb": 16.0,
+      "poss": 98.48,
+      "tov": 17.0
+    },
+    "home_score": 126.0,
+    "home_team_id": "29",
+    "id": "401910019",
+    "period": 4,
+    "status": "final"
+  },
+  "401910020": {
+    "away": "Portland Trail Blazers",
+    "away_box": {
+      "fga": 77.0,
+      "fta": 32.0,
+      "orb": 9.0,
+      "poss": 102.08,
+      "tov": 20.0
+    },
+    "away_score": 124.0,
+    "away_team_id": "22",
+    "date": "2026-11-20T01:00Z",
+    "home": "Milwaukee Bucks",
+    "home_box": {
+      "fga": 91.0,
+      "fta": 26.0,
+      "orb": 12.0,
+      "poss": 107.44,
+      "tov": 17.0
+    },
+    "home_score": 114.0,
+    "home_team_id": "15",
+    "id": "401910020",
+    "period": 4,
+    "status": "final"
+  },
+  "401910021": {
+    "away": "New York Knicks",
+    "away_box": {
+      "fga": 85.0,
+      "fta": 11.0,
+      "orb": 7.0,
+      "poss": 96.84,
+      "tov": 14.0
+    },
+    "away_score": 102.0,
+    "away_team_id": "18",
+    "date": "2026-11-20T01:00Z",
+    "home": "Minnesota Timberwolves",
+    "home_box": {
+      "fga": 79.0,
+      "fta": 17.0,
+      "orb": 6.0,
+      "poss": 96.48,
+      "tov": 16.0
+    },
+    "home_score": 99.0,
+    "home_team_id": "16",
+    "id": "401910021",
+    "period": 4,
+    "status": "final"
+  },
+  "401910022": {
+    "away": "Los Angeles Clippers",
+    "away_box": {
+      "fga": 81.0,
+      "fta": 17.0,
+      "orb": 7.0,
+      "poss": 102.48,
+      "tov": 21.0
+    },
+    "away_score": 112.0,
+    "away_team_id": "12",
+    "date": "2026-11-20T01:00Z",
+    "home": "San Antonio Spurs",
+    "home_box": {
+      "fga": 87.0,
+      "fta": 23.0,
+      "orb": 7.0,
+      "poss": 109.12,
+      "tov": 19.0
+    },
+    "home_score": 124.0,
+    "home_team_id": "24",
+    "id": "401910022",
+    "period": 4,
+    "status": "final"
   }
 }
