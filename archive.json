@@ -961,6 +961,32 @@
     "period": 4,
     "status": "final"
   },
+  "401909305": {
+    "away": "Charlotte Hornets",
+    "away_box": {
+      "fga": 94.0,
+      "fta": 16.0,
+      "orb": 20.0,
+      "poss": 98.04,
+      "tov": 17.0
+    },
+    "away_score": 97.0,
+    "away_team_id": "30",
+    "date": "2026-11-21T00:00Z",
+    "home": "Atlanta Hawks",
+    "home_box": {
+      "fga": 84.0,
+      "fta": 15.0,
+      "orb": 6.0,
+      "poss": 95.6,
+      "tov": 11.0
+    },
+    "home_score": 111.0,
+    "home_team_id": "1",
+    "id": "401909305",
+    "period": 4,
+    "status": "final"
+  },
   "401909834": {
     "away": "Atlanta Hawks",
     "away_box": {
