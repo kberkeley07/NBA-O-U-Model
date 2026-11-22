@@ -468,6 +468,7 @@
     "units": -1
   },
   "401910024|v1": {
+    "actual": 193.0,
     "away": "Portland Trail Blazers",
     "book": "FanDuel",
     "date": "2026-11-22T00:30Z",
@@ -479,10 +480,10 @@
     "paper_only": true,
     "price": -110.0,
     "projection": 221.4,
-    "result": "pending",
+    "result": "loss",
     "side": "OVER",
     "timestamp": "2026-11-21T19:18:15.117958+00:00",
-    "units": null
+    "units": -1
   },
   "401910032|v1": {
     "away": "Denver Nuggets",
@@ -516,6 +517,23 @@
     "result": "pending",
     "side": "UNDER",
     "timestamp": "2026-11-22T01:38:33.576422+00:00",
+    "units": null
+  },
+  "401910034|v1": {
+    "away": "Indiana Pacers",
+    "book": "FanDuel",
+    "date": "2026-11-23T01:00Z",
+    "edge": 5.85,
+    "event_id": "401910034",
+    "home": "New York Knicks",
+    "line": 213.5,
+    "model": "v1",
+    "paper_only": true,
+    "price": -105.0,
+    "projection": 219.4,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-22T19:42:58.353910+00:00",
     "units": null
   },
   "401910035|v1": {
