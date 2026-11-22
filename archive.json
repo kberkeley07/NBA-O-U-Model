@@ -6108,5 +6108,31 @@
     "id": "401910022",
     "period": 4,
     "status": "final"
+  },
+  "401910023": {
+    "away": "Milwaukee Bucks",
+    "away_box": {
+      "fga": 101.0,
+      "fta": 18.0,
+      "orb": 15.0,
+      "poss": 101.92,
+      "tov": 8.0
+    },
+    "away_score": 129.0,
+    "away_team_id": "15",
+    "date": "2026-11-21T18:00Z",
+    "home": "Philadelphia 76ers",
+    "home_box": {
+      "fga": 88.0,
+      "fta": 37.0,
+      "orb": 7.0,
+      "poss": 101.28,
+      "tov": 4.0
+    },
+    "home_score": 132.0,
+    "home_team_id": "20",
+    "id": "401910023",
+    "period": 4,
+    "status": "final"
   }
 }
