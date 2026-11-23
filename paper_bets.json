@@ -569,5 +569,22 @@
     "side": "OVER",
     "timestamp": "2026-11-22T01:38:33.576422+00:00",
     "units": null
+  },
+  "401910041|v1": {
+    "away": "Cleveland Cavaliers",
+    "book": "FanDuel",
+    "date": "2026-11-24T01:00Z",
+    "edge": -5.8,
+    "event_id": "401910041",
+    "home": "Chicago Bulls",
+    "line": 241.5,
+    "model": "v1",
+    "paper_only": true,
+    "price": -106.0,
+    "projection": 235.7,
+    "result": "pending",
+    "side": "UNDER",
+    "timestamp": "2026-11-23T01:59:22.931475+00:00",
+    "units": null
   }
 }
