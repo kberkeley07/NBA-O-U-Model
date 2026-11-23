@@ -486,6 +486,7 @@
     "units": -1
   },
   "401910032|v1": {
+    "actual": 296.0,
     "away": "Denver Nuggets",
     "book": "FanDuel",
     "date": "2026-11-23T00:00Z",
@@ -497,12 +498,13 @@
     "paper_only": true,
     "price": -110.0,
     "projection": 230.4,
-    "result": "pending",
+    "result": "loss",
     "side": "UNDER",
     "timestamp": "2026-11-22T01:38:33.576422+00:00",
-    "units": null
+    "units": -1
   },
   "401910032|v2": {
+    "actual": 296.0,
     "away": "Denver Nuggets",
     "book": "FanDuel",
     "date": "2026-11-23T00:00Z",
@@ -514,12 +516,13 @@
     "paper_only": true,
     "price": -110.0,
     "projection": 230.9,
-    "result": "pending",
+    "result": "loss",
     "side": "UNDER",
     "timestamp": "2026-11-22T01:38:33.576422+00:00",
-    "units": null
+    "units": -1
   },
   "401910034|v1": {
+    "actual": 219.0,
     "away": "Indiana Pacers",
     "book": "FanDuel",
     "date": "2026-11-23T01:00Z",
@@ -531,12 +534,13 @@
     "paper_only": true,
     "price": -105.0,
     "projection": 219.4,
-    "result": "pending",
+    "result": "win",
     "side": "OVER",
     "timestamp": "2026-11-22T19:42:58.353910+00:00",
-    "units": null
+    "units": 0.9524
   },
   "401910035|v1": {
+    "actual": 175.0,
     "away": "Boston Celtics",
     "book": "FanDuel",
     "date": "2026-11-23T01:30Z",
@@ -548,12 +552,13 @@
     "paper_only": true,
     "price": -105.0,
     "projection": 220.1,
-    "result": "pending",
+    "result": "loss",
     "side": "OVER",
     "timestamp": "2026-11-22T01:38:33.576422+00:00",
-    "units": null
+    "units": -1
   },
   "401910035|v2": {
+    "actual": 175.0,
     "away": "Boston Celtics",
     "book": "FanDuel",
     "date": "2026-11-23T01:30Z",
@@ -565,9 +570,43 @@
     "paper_only": true,
     "price": -105.0,
     "projection": 219.7,
-    "result": "pending",
+    "result": "loss",
     "side": "OVER",
     "timestamp": "2026-11-22T01:38:33.576422+00:00",
+    "units": -1
+  },
+  "401910036|v1": {
+    "away": "Memphis Grizzlies",
+    "book": "BetOnline.ag",
+    "date": "2026-11-24T00:00Z",
+    "edge": 6.56,
+    "event_id": "401910036",
+    "home": "Charlotte Hornets",
+    "line": 214.0,
+    "model": "v1",
+    "paper_only": true,
+    "price": -110.0,
+    "projection": 220.6,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-23T23:55:36.033559+00:00",
+    "units": null
+  },
+  "401910036|v2": {
+    "away": "Memphis Grizzlies",
+    "book": "BetOnline.ag",
+    "date": "2026-11-24T00:00Z",
+    "edge": 5.8,
+    "event_id": "401910036",
+    "home": "Charlotte Hornets",
+    "line": 214.0,
+    "model": "v2",
+    "paper_only": true,
+    "price": -110.0,
+    "projection": 219.8,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-23T23:55:36.033559+00:00",
     "units": null
   },
   "401910041|v1": {
@@ -585,6 +624,23 @@
     "result": "pending",
     "side": "UNDER",
     "timestamp": "2026-11-23T01:59:22.931475+00:00",
+    "units": null
+  },
+  "401910043|v2": {
+    "away": "Los Angeles Clippers",
+    "book": "LowVig.ag",
+    "date": "2026-11-24T01:30Z",
+    "edge": 5.6,
+    "event_id": "401910043",
+    "home": "Houston Rockets",
+    "line": 224.0,
+    "model": "v2",
+    "paper_only": true,
+    "price": -104.0,
+    "projection": 229.6,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-23T23:55:36.033559+00:00",
     "units": null
   }
 }
