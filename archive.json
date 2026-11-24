@@ -6655,6 +6655,32 @@
     "period": 4,
     "status": "final"
   },
+  "401910044": {
+    "away": "Utah Jazz",
+    "away_box": {
+      "fga": 89.0,
+      "fta": 21.0,
+      "orb": 15.0,
+      "poss": 98.24,
+      "tov": 15.0
+    },
+    "away_score": 94.0,
+    "away_team_id": "26",
+    "date": "2026-11-24T03:00Z",
+    "home": "Los Angeles Lakers",
+    "home_box": {
+      "fga": 81.0,
+      "fta": 35.0,
+      "orb": 13.0,
+      "poss": 94.4,
+      "tov": 11.0
+    },
+    "home_score": 109.0,
+    "home_team_id": "13",
+    "id": "401910044",
+    "period": 4,
+    "status": "final"
+  },
   "401910045": {
     "away": "San Antonio Spurs",
     "away_box": {
