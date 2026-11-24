@@ -143,6 +143,40 @@
     "timestamp": "2026-11-20T02:39:13.196928+00:00",
     "units": 0.9804
   },
+  "401909316|v1": {
+    "away": "Dallas Mavericks",
+    "book": "LowVig.ag",
+    "date": "2026-11-25T03:00Z",
+    "edge": -7.9,
+    "event_id": "401909316",
+    "home": "Denver Nuggets",
+    "line": 232.0,
+    "model": "v1",
+    "paper_only": true,
+    "price": -107.0,
+    "projection": 224.1,
+    "result": "pending",
+    "side": "UNDER",
+    "timestamp": "2026-11-24T05:34:55.241908+00:00",
+    "units": null
+  },
+  "401909316|v2": {
+    "away": "Dallas Mavericks",
+    "book": "LowVig.ag",
+    "date": "2026-11-25T03:00Z",
+    "edge": -7.8,
+    "event_id": "401909316",
+    "home": "Denver Nuggets",
+    "line": 232.0,
+    "model": "v2",
+    "paper_only": true,
+    "price": -107.0,
+    "projection": 224.2,
+    "result": "pending",
+    "side": "UNDER",
+    "timestamp": "2026-11-24T05:34:55.241908+00:00",
+    "units": null
+  },
   "401909968|v1": {
     "actual": 191.0,
     "away": "Boston Celtics",
@@ -576,6 +610,7 @@
     "units": -1
   },
   "401910036|v1": {
+    "actual": 228.0,
     "away": "Memphis Grizzlies",
     "book": "BetOnline.ag",
     "date": "2026-11-24T00:00Z",
@@ -587,12 +622,13 @@
     "paper_only": true,
     "price": -110.0,
     "projection": 220.6,
-    "result": "pending",
+    "result": "win",
     "side": "OVER",
     "timestamp": "2026-11-23T23:55:36.033559+00:00",
-    "units": null
+    "units": 0.9091
   },
   "401910036|v2": {
+    "actual": 228.0,
     "away": "Memphis Grizzlies",
     "book": "BetOnline.ag",
     "date": "2026-11-24T00:00Z",
@@ -604,12 +640,13 @@
     "paper_only": true,
     "price": -110.0,
     "projection": 219.8,
-    "result": "pending",
+    "result": "win",
     "side": "OVER",
     "timestamp": "2026-11-23T23:55:36.033559+00:00",
-    "units": null
+    "units": 0.9091
   },
   "401910041|v1": {
+    "actual": 230.0,
     "away": "Cleveland Cavaliers",
     "book": "FanDuel",
     "date": "2026-11-24T01:00Z",
@@ -621,12 +658,13 @@
     "paper_only": true,
     "price": -106.0,
     "projection": 235.7,
-    "result": "pending",
+    "result": "win",
     "side": "UNDER",
     "timestamp": "2026-11-23T01:59:22.931475+00:00",
-    "units": null
+    "units": 0.9434
   },
   "401910043|v2": {
+    "actual": 220.0,
     "away": "Los Angeles Clippers",
     "book": "LowVig.ag",
     "date": "2026-11-24T01:30Z",
@@ -638,9 +676,9 @@
     "paper_only": true,
     "price": -104.0,
     "projection": 229.6,
-    "result": "pending",
+    "result": "loss",
     "side": "OVER",
     "timestamp": "2026-11-23T23:55:36.033559+00:00",
-    "units": null
+    "units": -1
   }
 }
