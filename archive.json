@@ -1195,6 +1195,58 @@
     "period": 4,
     "status": "final"
   },
+  "401909314": {
+    "away": "Detroit Pistons",
+    "away_box": {
+      "fga": 79.0,
+      "fta": 15.0,
+      "orb": 8.0,
+      "poss": 93.6,
+      "tov": 16.0
+    },
+    "away_score": 104.0,
+    "away_team_id": "8",
+    "date": "2026-11-25T00:00Z",
+    "home": "Orlando Magic",
+    "home_box": {
+      "fga": 83.0,
+      "fta": 8.0,
+      "orb": 10.0,
+      "poss": 96.52,
+      "tov": 20.0
+    },
+    "home_score": 86.0,
+    "home_team_id": "19",
+    "id": "401909314",
+    "period": 4,
+    "status": "final"
+  },
+  "401909315": {
+    "away": "Boston Celtics",
+    "away_box": {
+      "fga": 100.0,
+      "fta": 25.0,
+      "orb": 13.0,
+      "poss": 108.0,
+      "tov": 10.0
+    },
+    "away_score": 131.0,
+    "away_team_id": "2",
+    "date": "2026-11-25T01:00Z",
+    "home": "Washington Wizards",
+    "home_box": {
+      "fga": 92.0,
+      "fta": 26.0,
+      "orb": 14.0,
+      "poss": 102.44,
+      "tov": 13.0
+    },
+    "home_score": 116.0,
+    "home_team_id": "27",
+    "id": "401909315",
+    "period": 4,
+    "status": "final"
+  },
   "401909834": {
     "away": "Atlanta Hawks",
     "away_box": {

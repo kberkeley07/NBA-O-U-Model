@@ -177,6 +177,23 @@
     "timestamp": "2026-11-24T05:34:55.241908+00:00",
     "units": null
   },
+  "401909324|v1": {
+    "away": "Sacramento Kings",
+    "book": "DraftKings",
+    "date": "2026-11-26T03:00Z",
+    "edge": 5.5,
+    "event_id": "401909324",
+    "home": "Golden State Warriors",
+    "line": 218.5,
+    "model": "v1",
+    "paper_only": true,
+    "price": -110.0,
+    "projection": 224.0,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-25T04:37:17.416691+00:00",
+    "units": null
+  },
   "401909968|v1": {
     "actual": 191.0,
     "away": "Boston Celtics",
