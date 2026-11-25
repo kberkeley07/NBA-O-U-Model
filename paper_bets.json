@@ -144,6 +144,7 @@
     "units": 0.9804
   },
   "401909316|v1": {
+    "actual": 221.0,
     "away": "Dallas Mavericks",
     "book": "LowVig.ag",
     "date": "2026-11-25T03:00Z",
@@ -155,12 +156,13 @@
     "paper_only": true,
     "price": -107.0,
     "projection": 224.1,
-    "result": "pending",
+    "result": "win",
     "side": "UNDER",
     "timestamp": "2026-11-24T05:34:55.241908+00:00",
-    "units": null
+    "units": 0.9346
   },
   "401909316|v2": {
+    "actual": 221.0,
     "away": "Dallas Mavericks",
     "book": "LowVig.ag",
     "date": "2026-11-25T03:00Z",
@@ -172,9 +174,26 @@
     "paper_only": true,
     "price": -107.0,
     "projection": 224.2,
-    "result": "pending",
+    "result": "win",
     "side": "UNDER",
     "timestamp": "2026-11-24T05:34:55.241908+00:00",
+    "units": 0.9346
+  },
+  "401909323|v2": {
+    "away": "Phoenix Suns",
+    "book": "FanDuel",
+    "date": "2026-11-26T01:30Z",
+    "edge": 6.8,
+    "event_id": "401909323",
+    "home": "Houston Rockets",
+    "line": 222.5,
+    "model": "v2",
+    "paper_only": true,
+    "price": -112.0,
+    "projection": 229.3,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-25T21:43:35.638439+00:00",
     "units": null
   },
   "401909324|v1": {
@@ -192,6 +211,23 @@
     "result": "pending",
     "side": "OVER",
     "timestamp": "2026-11-25T04:37:17.416691+00:00",
+    "units": null
+  },
+  "401909324|v2": {
+    "away": "Sacramento Kings",
+    "book": "DraftKings",
+    "date": "2026-11-26T03:00Z",
+    "edge": 8.4,
+    "event_id": "401909324",
+    "home": "Golden State Warriors",
+    "line": 215.5,
+    "model": "v2",
+    "paper_only": true,
+    "price": -110.0,
+    "projection": 223.9,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-25T21:43:35.638439+00:00",
     "units": null
   },
   "401909968|v1": {

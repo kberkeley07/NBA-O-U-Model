@@ -1247,6 +1247,32 @@
     "period": 4,
     "status": "final"
   },
+  "401909316": {
+    "away": "Dallas Mavericks",
+    "away_box": {
+      "fga": 98.0,
+      "fta": 20.0,
+      "orb": 14.0,
+      "poss": 104.8,
+      "tov": 12.0
+    },
+    "away_score": 120.0,
+    "away_team_id": "6",
+    "date": "2026-11-25T03:00Z",
+    "home": "Denver Nuggets",
+    "home_box": {
+      "fga": 85.0,
+      "fta": 24.0,
+      "orb": 12.0,
+      "poss": 101.56,
+      "tov": 18.0
+    },
+    "home_score": 101.0,
+    "home_team_id": "7",
+    "id": "401909316",
+    "period": 4,
+    "status": "final"
+  },
   "401909834": {
     "away": "Atlanta Hawks",
     "away_box": {
