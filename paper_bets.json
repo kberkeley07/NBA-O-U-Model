@@ -234,6 +234,7 @@
     "units": 0.9091
   },
   "401909329|v1": {
+    "actual": 224.0,
     "away": "Brooklyn Nets",
     "book": "BetRivers",
     "date": "2026-11-28T00:30Z",
@@ -245,12 +246,13 @@
     "paper_only": true,
     "price": -113.0,
     "projection": 226.3,
-    "result": "pending",
+    "result": "win",
     "side": "OVER",
     "timestamp": "2026-11-26T21:35:06.937737+00:00",
-    "units": null
+    "units": 0.885
   },
   "401909329|v2": {
+    "actual": 224.0,
     "away": "Brooklyn Nets",
     "book": "BetRivers",
     "date": "2026-11-28T00:30Z",
@@ -262,10 +264,10 @@
     "paper_only": true,
     "price": -113.0,
     "projection": 226.7,
-    "result": "pending",
+    "result": "win",
     "side": "OVER",
     "timestamp": "2026-11-26T21:35:06.937737+00:00",
-    "units": null
+    "units": 0.885
   },
   "401909331|v1": {
     "away": "Memphis Grizzlies",
@@ -855,5 +857,73 @@
     "side": "OVER",
     "timestamp": "2026-11-23T23:55:36.033559+00:00",
     "units": -1
+  },
+  "401910047|v1": {
+    "away": "Brooklyn Nets",
+    "book": "FanDuel",
+    "date": "2026-11-28T23:00Z",
+    "edge": 6.3,
+    "event_id": "401910047",
+    "home": "Charlotte Hornets",
+    "line": 213.5,
+    "model": "v1",
+    "paper_only": true,
+    "price": -110.0,
+    "projection": 219.8,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-28T03:33:34.157778+00:00",
+    "units": null
+  },
+  "401910047|v2": {
+    "away": "Brooklyn Nets",
+    "book": "FanDuel",
+    "date": "2026-11-28T23:00Z",
+    "edge": 5.7,
+    "event_id": "401910047",
+    "home": "Charlotte Hornets",
+    "line": 213.5,
+    "model": "v2",
+    "paper_only": true,
+    "price": -110.0,
+    "projection": 219.2,
+    "result": "pending",
+    "side": "OVER",
+    "timestamp": "2026-11-28T03:33:34.157778+00:00",
+    "units": null
+  },
+  "401910048|v1": {
+    "away": "Indiana Pacers",
+    "book": "FanDuel",
+    "date": "2026-11-29T01:00Z",
+    "edge": -6.12,
+    "event_id": "401910048",
+    "home": "Chicago Bulls",
+    "line": 236.5,
+    "model": "v1",
+    "paper_only": true,
+    "price": -110.0,
+    "projection": 230.4,
+    "result": "pending",
+    "side": "UNDER",
+    "timestamp": "2026-11-28T03:33:34.157778+00:00",
+    "units": null
+  },
+  "401910048|v2": {
+    "away": "Indiana Pacers",
+    "book": "FanDuel",
+    "date": "2026-11-29T01:00Z",
+    "edge": -6.1,
+    "event_id": "401910048",
+    "home": "Chicago Bulls",
+    "line": 236.5,
+    "model": "v2",
+    "paper_only": true,
+    "price": -110.0,
+    "projection": 230.4,
+    "result": "pending",
+    "side": "UNDER",
+    "timestamp": "2026-11-28T03:33:34.157778+00:00",
+    "units": null
   }
 }

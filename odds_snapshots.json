@@ -8206,5 +8206,53 @@
     "offers": 9,
     "over_price": -110.0,
     "under_price": -110.0
+  },
+  {
+    "away": "Orlando Magic",
+    "book": "BetOnline.ag",
+    "captured_at": "2026-11-28T03:33:34.157778+00:00",
+    "commence_time": "2026-11-28T22:00Z",
+    "event_id": "401910046",
+    "home": "Washington Wizards",
+    "line": 219.5,
+    "offers": 7,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Brooklyn Nets",
+    "book": "FanDuel",
+    "captured_at": "2026-11-28T03:33:34.157778+00:00",
+    "commence_time": "2026-11-28T23:00Z",
+    "event_id": "401910047",
+    "home": "Charlotte Hornets",
+    "line": 213.5,
+    "offers": 6,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Indiana Pacers",
+    "book": "FanDuel",
+    "captured_at": "2026-11-28T03:33:34.157778+00:00",
+    "commence_time": "2026-11-29T01:00Z",
+    "event_id": "401910048",
+    "home": "Chicago Bulls",
+    "line": 236.5,
+    "offers": 5,
+    "over_price": -110.0,
+    "under_price": -110.0
+  },
+  {
+    "away": "Oklahoma City Thunder",
+    "book": "FanDuel",
+    "captured_at": "2026-11-28T03:33:34.157778+00:00",
+    "commence_time": "2026-11-29T01:00Z",
+    "event_id": "401910049",
+    "home": "Milwaukee Bucks",
+    "line": 228.5,
+    "offers": 6,
+    "over_price": -105.0,
+    "under_price": -115.0
   }
 ]
